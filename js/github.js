@@ -63,9 +63,9 @@ export const gh = {
 
   // ── Salva dados.json no repositório (commit) ──
   async save(data) {
-    const content = btoa(unescape(encodeURIComponent(
-      JSON.stringify(data.map(({ _id, ...d }) => d), null, 2)
-    )));
+  const json = JSON.stringify(data.map(({ _id, ...d }) => d), null, 2);
+  const content = btoa(encodeURIComponent(json).replace(/%([0-9A-F]{2})/g,
+  (_, p1) => String.fromCharCode('0x' + p1)));
     const now = new Date().toLocaleString('pt-BR');
     const body = {
       message: `Inventário atualizado — ${now}`,
