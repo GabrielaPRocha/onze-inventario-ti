@@ -6,12 +6,15 @@ import { store }      from '../store.js';
 import { statusBadge, avariado, initials } from '../helpers.js';
 
 export function openProfile(name) {
-  const nameUp = name.toUpperCase();
-  const matches = store.data.filter(r =>
-    (r.nome      || '').toUpperCase() === nameUp ||
-    (r.old_user  || '').toUpperCase().includes(nameUp) ||
-    (r._hist     || []).some(h => h.text.toUpperCase().includes(nameUp))
-  );
+  if (!name || !name.trim()) return;
+  const nameUp = name.trim().toUpperCase();
+  const minLen = nameUp.length >= 3;
+  const matches = store.data.filter(r => {
+    const curMatch = (r.nome || '').trim().toUpperCase() === nameUp;
+    const oldMatch = minLen && (r.old_user || '').toUpperCase().includes(nameUp);
+    const histMatch = minLen && (r._hist || []).some(h => h.text.toUpperCase().includes(nameUp));
+    return curMatch || oldMatch || histMatch;
+  });
 
   document.getElementById('profile-avatar').textContent = initials(name);
   document.getElementById('profile-name').textContent   = name;
