@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inventário TI · Onze</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Syne:wght@700;800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<!-- ══════════════════════════════════
+     LOADING SCREEN
+══════════════════════════════════ -->
+<div class="loading-screen" id="loading-screen">
+  <div class="loading-logo">onze<span>.</span>ti</div>
+  <div class="spinner"></div>
+  <div class="loading-sub" id="loading-msg">Carregando...</div>
+</div>
+
+<!-- ══════════════════════════════════
+     TOPBAR
+══════════════════════════════════ -->
+<header class="topbar">
+  <div class="logo">
+    onze <span class="logo-chip">INV.TI</span>
+  </div>
+
+  <nav class="nav-tabs">
+    <button class="ntab active" onclick="app.switchView('dashboard', this)">📊 Dashboard</button>
+    <button class="ntab"        onclick="app.switchView('inventario', this)">💻 Inventário</button>
+    <button class="ntab"        onclick="app.switchView('canibalizacao', this)">🔧 Canibalização</button>
+  </nav>
+
+  <div class="topbar-right">
+    <div class="gh-status disconnected" id="gh-status" onclick="app.overlayBgClose(event,'');document.getElementById('gh-overlay').classList.add('open')">
+      ⚙ GitHub
+    </div>
+    <button class="save-btn idle" id="save-btn" onclick="app.saveToGitHub()">
+      <span id="save-ico">💾</span><span id="save-lbl">Salvar</span>
+    </button>
+    <button class="admin-btn" id="admin-btn" onclick="app.handleAdmin()">
+      <span id="lock-ico">🔒</span><span id="admin-lbl">Admin</span>
+    </button>
+    <button class="btn btn-teal" onclick="app.openNew()">+ Adicionar</button>
+  </div>
+</header>
+
+<!-- ══════════════════════════════════
+     MAIN
+══════════════════════════════════ -->
+<main class="main">
+
+  <!-- ── DASHBOARD ── -->
+  <section class="view active" id="view-dashboard">
+    <div class="stats-grid" id="stats-grid"></div>
+    <div class="alerts-box" id="alerts-box"></div>
+    <div class="charts-row">
+      <div class="chart-card"><h3>Por Modelo</h3><div id="chart-models"></div></div>
+      <div class="chart-card"><h3>Por Status</h3><div id="chart-status"></div></div>
+    </div>
+  </section>
+
+  <!-- ── INVENTÁRIO ── -->
+  <section class="view" id="view-inventario">
+
+    <!-- Perfil de usuário -->
+    <div id="profile-view" style="display:none">
+      <div class="profile-back" onclick="app.closeProfile()">← Voltar ao Inventário</div>
+      <div class="profile-card">
+        <div class="profile-avatar" id="profile-avatar"></div>
+        <div class="profile-info">
+          <h2 id="profile-name"></h2>
+          <div class="profile-meta" id="profile-meta"></div>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <div class="table-toolbar">
+          <span style="font-size:13px;font-weight:600;color:var(--navy)">Máquinas associadas a este usuário</span>
+          <span class="result-count" id="profile-count"></span>
+        </div>
+        <div class="table-scroll">
+          <table>
+            <thead><tr>
+              <th>Ativo</th><th>Modelo</th><th>S/N</th>
+              <th>Status</th><th>Relação</th><th>Avariado</th><th>Obs</th>
+            </tr></thead>
+            <tbody id="profile-table-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tabela principal -->
+    <div id="main-inv-view">
+      <div class="table-wrap">
+        <div class="table-toolbar">
+          <div class="search-wrap">
+            <span class="search-ico">🔍</span>
+            <input id="search-input" type="text"
+              placeholder="Buscar por nome, S/N, modelo, ativo, cargo..."
+              oninput="app.applyFilters()">
+          </div>
+          <select class="filter-select" id="filter-status" onchange="app.applyFilters()">
+            <option value="">Todos os status</option>
+            <option>Em uso</option><option>Estoque</option>
+            <option>Canibalização</option><option>Sucata</option><option>Não definido</option>
+          </select>
+          <select class="filter-select" id="filter-fab" onchange="app.applyFilters()">
+            <option value="">Todos os fab.</option>
+            <option>APPLE</option><option>LENOVO</option><option>DELL</option>
+          </select>
+          <select class="filter-select" id="filter-av" onchange="app.applyFilters()">
+            <option value="">Avariado?</option><option>Sim</option><option>Não</option>
+          </select>
+          <select class="filter-select" id="filter-fmt" onchange="app.applyFilters()">
+            <option value="">Formatado?</option><option>Sim</option><option>Não</option>
+          </select>
+          <button class="btn btn-ghost btn-sm" onclick="app.clearFilters()">Limpar</button>
+          <span class="result-count" id="result-count"></span>
+        </div>
+
+        <div class="table-scroll">
+          <table>
+            <thead><tr>
+              <th onclick="app.sortBy('ativo')">Ativo ↕</th>
+              <th onclick="app.sortBy('nome')">Usuário ↕</th>
+              <th onclick="app.sortBy('cargo')">Cargo ↕</th>
+              <th onclick="app.sortBy('fabricante')">Fabricante ↕</th>
+              <th onclick="app.sortBy('modelo')">Modelo ↕</th>
+              <th>S/N</th>
+              <th onclick="app.sortBy('status')">Status ↕</th>
+              <th>Fmt.</th>
+              <th>Avariado</th>
+              <th>Obs</th>
+              <th></th>
+            </tr></thead>
+            <tbody id="table-body"></tbody>
+          </table>
+        </div>
+
+        <div class="pagination-row" id="pagination"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CANIBALIZAÇÃO ── -->
+  <section class="view" id="view-canibalizacao">
+    <div class="cani-note">
+      ⚠️
+      <div>
+        <strong>Estoque de Canibalização</strong>
+        Somente máquinas com status <strong>Canibalização</strong> (definido pelo Admin) aparecem aqui.
+      </div>
+    </div>
+    <div class="cani-grid" id="cani-grid"></div>
+  </section>
+
+</main>
+
+<!-- ══════════════════════════════════
+     MODAL — EDITAR / NOVO REGISTRO
+══════════════════════════════════ -->
+<div class="overlay" id="edit-overlay" onclick="app.overlayBgClose(event,'edit-overlay')">
+  <div class="modal">
+    <div class="modal-header">
+      <h2 id="modal-title">Editar Máquina</h2>
+      <button class="modal-close" onclick="app.closeOverlay('edit-overlay')">✕</button>
+    </div>
+
+    <div class="modal-body">
+      <div class="del-confirm" id="del-confirm">
+        <strong>⚠️ Ação irreversível</strong>
+        Confirma a remoção permanente desta máquina do inventário?
+      </div>
+
+      <div class="section-title">Dados Principais</div>
+      <div class="form-grid">
+        <div class="field"><label>Usuário Atual</label><input id="f-nome" placeholder="Nome completo"></div>
+        <div class="field"><label>Cargo</label><input id="f-cargo" placeholder="Ex: Engenharia, Produto, TI"></div>
+        <div class="field"><label>Ativo #</label><input id="f-ativo" placeholder="206"></div>
+        <div class="field"><label>Fabricante</label>
+          <select id="f-fabricante">
+            <option>APPLE</option><option>LENOVO</option><option>DELL</option><option>OUTRO</option>
+          </select>
+        </div>
+        <div class="field"><label>Modelo</label><input id="f-modelo" placeholder="MacBook Air M3"></div>
+        <div class="field"><label>S/N</label><input id="f-sn" placeholder="C02G78WPML7H"></div>
+        <div class="field"><label>Carregador #</label><input id="f-carregador"></div>
+        <div class="field" id="f-status-field">
+          <label>Status <span class="admin-hint" id="status-hint">🔒 Admin</span></label>
+          <select id="f-status">
+            <option>Em uso</option><option>Estoque</option>
+            <option>Canibalização</option><option>Sucata</option><option>Não definido</option>
+          </select>
+        </div>
+        <div class="field"><label>Formatado?</label>
+          <select id="f-formatado"><option value="">—</option><option>Sim</option><option>Não</option></select>
+        </div>
+        <div class="field"><label>Avariado?</label>
+          <select id="f-avariado"><option>Não</option><option>Sim</option><option>Talvez</option></select>
+        </div>
+        <div class="field"><label>Garantia</label><input id="f-garantia" placeholder="30/04/2025"></div>
+        <div class="field"><label>Vendor</label><input id="f-vendor"></div>
+        <div class="field"><label>NF</label><input id="f-nf"></div>
+        <div class="field"><label>Data Compra</label><input id="f-data" placeholder="DD/MM/AAAA"></div>
+        <div class="field"><label>Valor Unitário</label><input id="f-valor" placeholder="13.569,54"></div>
+      </div>
+
+      <div class="section-title">Histórico de Usuários</div>
+      <div class="form-grid">
+        <div class="field full">
+          <label>Usuários Anteriores</label>
+          <input id="f-old-user" placeholder="Ex: João Silva / Maria Souza / NOVO">
+        </div>
+      </div>
+
+      <div class="section-title">Log de Eventos</div>
+      <div class="hist-log" id="hist-log"></div>
+      <div class="hist-add-row">
+        <select class="filter-select" id="hist-type" style="width:135px">
+          <option value="user">👤 Troca usuário</option>
+          <option value="repair">🔧 Conserto</option>
+          <option value="note">📝 Observação</option>
+          <option value="cani">♻️ Canibaliz.</option>
+        </select>
+        <input id="hist-text" class="filter-select" style="flex:1" placeholder="Descreva o evento...">
+        <button class="btn btn-teal btn-sm" onclick="app.addHistEntry()">+ Log</button>
+      </div>
+
+      <div class="section-title">Observações</div>
+      <div class="form-grid">
+        <div class="field full">
+          <textarea id="f-obs" rows="2" placeholder="Situação, defeitos, notas gerais..."></textarea>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-footer">
+      <button class="btn btn-danger btn-sm" id="btn-delete"
+        onclick="app.confirmDelete()" style="margin-right:auto;display:none">🗑 Remover</button>
+      <button class="btn btn-ghost" onclick="app.closeOverlay('edit-overlay')">Cancelar</button>
+      <button class="btn btn-teal"  onclick="app.saveRecord()">💾 Salvar</button>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════
+     MODAL — SENHA ADMIN
+══════════════════════════════════ -->
+<div class="overlay" id="pw-overlay" onclick="app.overlayBgClose(event,'pw-overlay')">
+  <div class="modal pw-modal">
+    <div class="modal-header">
+      <h2>🔐 Modo Administrador</h2>
+      <button class="modal-close" onclick="app.closeOverlay('pw-overlay')">✕</button>
+    </div>
+    <div class="modal-body">
+      <p>Digite a senha para habilitar edição de status e remoção de máquinas.</p>
+      <input class="pw-input" type="password" id="pw-input" placeholder="••••••"
+        onkeydown="if(event.key==='Enter') app.checkPassword()">
+      <div class="pw-error" id="pw-error">Senha incorreta.</div>
+      <div style="margin-top:18px;display:flex;gap:9px;justify-content:center">
+        <button class="btn btn-ghost" onclick="app.closeOverlay('pw-overlay')">Cancelar</button>
+        <button class="btn btn-teal"  onclick="app.checkPassword()">Entrar</button>
+      </div>
+      <p style="margin-top:14px;font-size:11px;color:var(--muted2)">
+        Senha padrão:
+        <code style="font-family:'DM Mono',monospace;background:var(--bg2);padding:2px 6px;border-radius:4px">onze2025</code>
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════
+     MODAL — GITHUB CONFIG
+══════════════════════════════════ -->
+<div class="overlay" id="gh-overlay" onclick="app.overlayBgClose(event,'gh-overlay')">
+  <div class="modal gh-modal">
+    <div class="modal-header">
+      <h2>⚙ Configurar GitHub</h2>
+      <button class="modal-close" onclick="app.closeOverlay('gh-overlay')">✕</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size:13px;color:var(--muted);margin-bottom:16px">
+        Os dados ficam em <code style="font-family:'DM Mono',monospace;background:var(--bg2);padding:1px 5px;border-radius:4px">dados.json</code>
+        no seu repositório. Cada salvamento cria um commit automático.
+      </p>
+
+      <ol class="gh-steps">
+        <li>
+          <div>
+            <strong>Crie o repositório</strong> (se ainda não existe)<br>
+            <a href="https://github.com/new" target="_blank">github.com/new</a>
+            → nome: <code>onze-inventario-ti</code> → Privado ✓ → Criar
+          </div>
+        </li>
+        <li>
+          <div>
+            <strong>Gere um Personal Access Token</strong><br>
+            <a href="https://github.com/settings/tokens/new" target="_blank">github.com/settings/tokens/new</a>
+            → Nome: <code>inventario-ti</code> → Marque <code>repo</code> → Gerar → copiar
+          </div>
+        </li>
+        <li>
+          <div><strong>Preencha abaixo e clique em Salvar Config</strong></div>
+        </li>
+      </ol>
+
+      <div class="form-grid" style="margin-bottom:0">
+        <div class="field"><label>Usuário GitHub</label><input id="gh-user" placeholder="seu-usuario" style="font-family:'DM Mono',monospace"></div>
+        <div class="field"><label>Repositório</label><input id="gh-repo" value="onze-inventario-ti" style="font-family:'DM Mono',monospace"></div>
+        <div class="field full"><label>Personal Access Token</label>
+          <input id="gh-token" type="password" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx" style="font-family:'DM Mono',monospace">
+        </div>
+      </div>
+
+      <div class="token-warning" style="margin-top:12px">
+        🔒 O token fica armazenado <strong>apenas neste navegador</strong> (localStorage). Nunca é enviado a nenhum servidor além do GitHub.
+      </div>
+
+      <div id="gh-test-result" style="margin-top:10px;font-size:12px;display:none"></div>
+
+      <div style="display:flex;gap:9px;margin-top:16px;justify-content:flex-end">
+        <button class="btn btn-ghost"   onclick="app.closeOverlay('gh-overlay')">Cancelar</button>
+        <button class="btn btn-ghost"   onclick="app.testGhConnection()">🔗 Testar</button>
+        <button class="btn btn-teal"    onclick="app.saveGhConfig()">✓ Salvar Config</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
+<!-- ══════════════════════════════════
+     SCRIPTS (ES modules)
+══════════════════════════════════ -->
+<script type="module" src="js/main.js"></script>
+
+</body>
+</html>
