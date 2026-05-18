@@ -3996,24 +3996,30 @@
     "_hist": []
   },
   {
-    "nome": "RAQUEL SANTOS",
+    "nome": "SPARE - ESTOQUE",
     "fabricante": "LENOVO",
     "modelo": "E14 ULTRA5",
     "sn": "PE0EC4HP",
     "ativo": "733",
     "carregador": "732",
-    "status": "Em uso",
-    "formatado": "",
+    "status": "Estoque",
+    "formatado": "Não",
     "avariado": "Não",
     "garantia": "",
     "vendor": "DIGITAL WORK",
     "nf": "25945",
     "data": "18/06/2025",
     "valor": "6.199,00",
-    "old_user": "NOVO",
+    "old_user": "RAQUEL SANTOS",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Em uso\" → \"Estoque\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "GABRIELA CALDAS",
