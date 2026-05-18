@@ -224,9 +224,9 @@
     "sn": "PE08S1E3",
     "ativo": "184",
     "carregador": "185",
-    "status": "NÃO definido",
+    "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "DIGITAL WORK",
     "nf": "12694",
@@ -235,7 +235,13 @@
     "old_user": "novo",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"NÃO definido\" → \"Em uso\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "RONALDO ORBITE",
@@ -522,9 +528,9 @@
     "sn": "PE08S1F1",
     "ativo": "158",
     "carregador": "159",
-    "status": "NÃO definido",
+    "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "DIGITAL WORK",
     "nf": "12694",
@@ -533,7 +539,13 @@
     "old_user": "DAYANE SILVA BURGOS",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"NÃO definido\" → \"Em uso\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "LUCAS DANIEL",
@@ -2817,9 +2829,9 @@
     "sn": "PE064R1Q",
     "ativo": "374",
     "carregador": "375",
-    "status": "NÃO definido",
+    "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "LENOVO",
     "nf": "183897",
@@ -2828,7 +2840,13 @@
     "old_user": "LAIS GONCALVES BISPO DE SOUZA",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"NÃO definido\" → \"Em uso\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE - CAIU",
