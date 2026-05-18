@@ -64,10 +64,12 @@ export function renderTable() {
     <tr onclick="window.app.openEdit(${r._id})">
       <td class="mono">${r.ativo || '—'}</td>
       <td>
-        ${isSpare(r.nome)
-          ? `<span class="spare-label">${r.nome}</span>`
-          : `<span class="user-link" onclick="event.stopPropagation();window.app.openProfile('${escAttr(r.nome)}')">${r.nome || '<em style="color:var(--muted2)">Sem nome</em>'}</span>`
-        }
+      ${isSpare(r.nome)
+           ? `<span class="spare-label">${r.nome}</span>`
+           : !r.nome || !r.nome.trim()
+             ? `<em style="color:var(--muted2);font-size:12px">Sem nome</em>`
+             : `<span class="user-link" onclick="event.stopPropagation();window.app.openProfile('${escAttr(r.nome)}')">${r.nome}</span>`
+         }
       </td>
       <td><small style="color:var(--muted);font-size:11px">${r.cargo || '—'}</small></td>
       <td>${fabChip(r.fabricante)}</td>
