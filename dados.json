@@ -324,7 +324,7 @@
     "sn": "PE065JLL",
     "ativo": "57273",
     "carregador": "57274",
-    "status": "Sucata",
+    "status": "Canibalização",
     "formatado": "Sim",
     "avariado": "Sim",
     "garantia": "",
@@ -333,9 +333,15 @@
     "data": "12/17/2020",
     "valor": "5.970,00",
     "old_user": "BRUNA CARDOSO CHAVES",
-    "obs": "RETIRADA AS PEÃAS PARA OUTRAS MAQUINAS",
+    "obs": "RETIRADA AS PEÃÇAS PARA OUTRAS MAQUINAS",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Sucata\" → \"Canibalização\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "BARBARA MIRANDA",
