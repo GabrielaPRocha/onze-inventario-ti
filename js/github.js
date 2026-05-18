@@ -63,9 +63,9 @@ export const gh = {
 
   // ── Salva dados.json no repositório (commit) ──
   async save(data) {
-  const json = JSON.stringify(data.map(({ _id, ...d }) => d), null, 2);
-  const content = btoa(encodeURIComponent(json).replace(/%([0-9A-F]{2})/g,
-  (_, p1) => String.fromCharCode('0x' + p1)));
+    const jsonStr = JSON.stringify(data.map(({ _id, ...d }) => d), null, 2);
+    const content = btoa(encodeURIComponent(jsonStr).replace(/%([0-9A-F]{2})/g,
+      (_, p1) => String.fromCharCode('0x' + p1)));
     const now = new Date().toLocaleString('pt-BR');
     const body = {
       message: `Inventário atualizado — ${now}`,
@@ -80,8 +80,8 @@ export const gh = {
       const err = await r.json();
       throw new Error(err.message || `HTTP ${r.status}`);
     }
-    const json = await r.json();
-    this.fileSHA = json.content.sha;
-    return json;
+    const resp = await r.json();
+    this.fileSHA = resp.content.sha;
+    return resp;
   },
 };
