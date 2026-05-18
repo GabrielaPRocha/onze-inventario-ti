@@ -6,7 +6,7 @@ export const ADMIN_PASSWORD = 'onze2025';
 export const DATA_FILE      = 'dados.json';
 export const GH_REPO_DEFAULT = 'onze-inventario-ti';
 export const PARTS = ['Tela','Carcaça','Bateria','Placa','Teclado','SSD','RAM'];
-export const PER_PAGE = 25;
+export const PER_PAGE = 50;
 
 export const STATUS_OPTIONS = ['Em uso','Estoque','Canibalização','Sucata','Não definido'];
 export const FAB_OPTIONS    = ['APPLE','LENOVO','DELL','OUTRO'];
