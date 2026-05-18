@@ -20,7 +20,7 @@
     "_hist": []
   },
   {
-    "nome": "SPARE -  ONZE",
+    "nome": "SPARE -  ONZE - teclas desgastadas",
     "fabricante": "APPLE",
     "modelo": "MACBOOK PRO 13",
     "sn": "FVFCF07ML414",
@@ -3781,9 +3781,9 @@
     "sn": "C02FM3HYML7H",
     "ativo": "34",
     "carregador": "35",
-    "status": "Em uso",
+    "status": "Estoque",
     "formatado": "Sim",
-    "avariado": "NÃO",
+    "avariado": "Não",
     "garantia": "",
     "vendor": "ALLIED",
     "nf": "220206",
@@ -3792,7 +3792,13 @@
     "old_user": "RODRIGO BRUNO DE SOUZA",
     "obs": "ok",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Em uso\" → \"Estoque\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE",
