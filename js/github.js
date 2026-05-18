@@ -1,7 +1,6 @@
 // ═══════════════════════════════════════
 // github.js — Integração com GitHub API
 // ═══════════════════════════════════════
-
 import { DATA_FILE, GH_REPO_DEFAULT } from './config.js';
 
 const LS = { USER: 'gh_user', REPO: 'gh_repo', TOKEN: 'gh_token' };
@@ -56,7 +55,9 @@ export const gh = {
     if (!r.ok) throw new Error(`GitHub HTTP ${r.status}`);
     const json = await r.json();
     this.fileSHA = json.sha;
-    const decoded = JSON.parse(atob(json.content.replace(/\n/g, '')));
+    const base64 = json.content.replace(/\n/g, '');
+    const bytes = Uint8Array.from(atob(base64), c => c.charCodeAt(0));
+    const decoded = JSON.parse(new TextDecoder('utf-8').decode(bytes));
     this.connected = true;
     return { exists: true, data: decoded };
   },
