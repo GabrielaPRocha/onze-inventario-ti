@@ -186,7 +186,7 @@
     "sn": "PE065JQE",
     "ativo": "69",
     "carregador": "70",
-    "status": "Não definido",
+    "status": "Em uso",
     "formatado": "",
     "avariado": "Não",
     "garantia": "",
@@ -197,7 +197,13 @@
     "old_user": "ARIANE CRISTINE DESTRO RAMAZOTTI",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Não definido\" → \"Em uso\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "AUDREY RUTKOSKI",
@@ -326,7 +332,7 @@
     "sn": "PE06DSE2",
     "ativo": "260",
     "carregador": "57131",
-    "status": "Não definido",
+    "status": "Estoque",
     "formatado": "",
     "avariado": "Não",
     "garantia": "",
@@ -337,7 +343,13 @@
     "old_user": "BRUNO CARVALHO GIAROLA",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Não definido\" → \"Estoque\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "VINICIUS SILVA",
@@ -1058,7 +1070,7 @@
     "sn": "6HNRLY3",
     "ativo": "282",
     "carregador": "283",
-    "status": "Não definido",
+    "status": "Estoque",
     "formatado": "",
     "avariado": "Não",
     "garantia": "",
@@ -1069,7 +1081,13 @@
     "old_user": "JULIANA PIGOZZI",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Não definido\" → \"Estoque\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "FRANCINE PEDRONI",
@@ -1118,7 +1136,7 @@
     "sn": "PE07R40Q",
     "ativo": "394",
     "carregador": "57534",
-    "status": "Não definido",
+    "status": "Em uso",
     "formatado": "",
     "avariado": "Não",
     "garantia": "",
@@ -1129,7 +1147,13 @@
     "old_user": "JULIO HERMINIO BRESSAN MARTINS",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Não definido\" → \"Em uso\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE",
@@ -1854,7 +1878,7 @@
     "sn": "PE07R46T",
     "ativo": "66",
     "carregador": "75",
-    "status": "Não definido",
+    "status": "Em uso",
     "formatado": "",
     "avariado": "Não",
     "garantia": "",
@@ -1865,7 +1889,13 @@
     "old_user": "",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Não definido\" → \"Em uso\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE - ONZE ok",
@@ -2380,7 +2410,7 @@
     "sn": "PE077NHH",
     "ativo": "125",
     "carregador": "126",
-    "status": "Estoque",
+    "status": "Em uso",
     "formatado": "",
     "avariado": "Não",
     "garantia": "",
@@ -2391,7 +2421,13 @@
     "old_user": "<openpyxl.worksheet.formula.ArrayFormula object at 0x7f6f05399370>",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Estoque\" → \"Em uso\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE",
@@ -2658,7 +2694,7 @@
     "sn": "PE08EVN3",
     "ativo": "585",
     "carregador": "57388",
-    "status": "Não definido",
+    "status": "Estoque",
     "formatado": "",
     "avariado": "Não",
     "garantia": "",
@@ -2669,7 +2705,13 @@
     "old_user": "MARTHA DE OLIVEIRA PELUSSI",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Não definido\" → \"Estoque\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE ONZE",
@@ -4246,7 +4288,7 @@
     "sn": "PE0EC4HD",
     "ativo": "644",
     "carregador": "",
-    "status": "Não definido",
+    "status": "Em uso",
     "formatado": "",
     "avariado": "Não",
     "garantia": "",
@@ -4257,7 +4299,13 @@
     "old_user": "NOVO",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Não definido\" → \"Em uso\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "EVERTON SOARES SANTOS",
