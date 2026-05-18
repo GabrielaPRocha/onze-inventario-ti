@@ -840,24 +840,30 @@
     "_hist": []
   },
   {
-    "nome": "MARCOS QUEIROZ",
+    "nome": "SPARE - ESTOQUE",
     "fabricante": "LENOVO",
     "modelo": "THINKPAD T490 (2020)",
     "sn": "PE06DC67",
     "ativo": "21",
     "carregador": "22",
-    "status": "Não definido",
-    "formatado": "",
+    "status": "Estoque",
+    "formatado": "Não",
     "avariado": "Não",
     "garantia": "",
     "vendor": "LENOVO",
     "nf": "203057",
     "data": "10/16/2020",
     "valor": "8.690,52",
-    "old_user": "GABRIELE MENDES DOS SANTOS",
+    "old_user": "Marcos Queiroz/VICTOR SANTOS/GABRIELE MENDES DOS SANTOS",
     "obs": "victor deixou cachorro bater a pata, foi necessario trocar a tela",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Não definido\" → \"Estoque\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "GESLEY HENRIQUE FLORENTINO",
@@ -1480,24 +1486,40 @@
     "_hist": []
   },
   {
-    "nome": "LORENZO FERREIRA",
+    "nome": "SPARE - ESTOQUE",
     "fabricante": "LENOVO",
     "modelo": "THINKPAD T490",
     "sn": "PE05AT74",
     "ativo": "285",
     "carregador": "340",
-    "status": "Não definido",
-    "formatado": "",
+    "status": "Estoque",
+    "formatado": "Não",
     "avariado": "Não",
     "garantia": "",
     "vendor": "LENOVO",
     "nf": "143255",
     "data": "12/26/2019",
     "valor": "6.651,53",
-    "old_user": "MARCOS SANTOS",
+    "old_user": "Lorenzo Ferreira / Marcos Santos",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "user",
+        "text": "MARCOS SANTOS",
+        "date": "18/05/2026"
+      },
+      {
+        "type": "user",
+        "text": "LORENZO FERREIRA",
+        "date": "18/05/2026"
+      },
+      {
+        "type": "note",
+        "text": "Status: \"Não definido\" → \"Estoque\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE ONZE",
@@ -2068,7 +2090,7 @@
     "carregador": "81",
     "status": "Estoque",
     "formatado": "",
-    "avariado": "Não",
+    "avariado": "Sim",
     "garantia": "",
     "vendor": "ALLIED",
     "nf": "269163",
@@ -2492,8 +2514,8 @@
     "sn": "PE08S1DW",
     "ativo": "379",
     "carregador": "",
-    "status": "Não definido",
-    "formatado": "",
+    "status": "Estoque",
+    "formatado": "Não",
     "avariado": "Não",
     "garantia": "",
     "vendor": "DIGITAL WORK",
@@ -2503,7 +2525,13 @@
     "old_user": "RAQUEL REIS",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Não definido\" → \"Estoque\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "ANA CAROLINA OLIVEIRA",
@@ -2686,24 +2714,40 @@
     "_hist": []
   },
   {
-    "nome": "Emanuelle Santos",
+    "nome": "SPARE - ESTOQUE",
     "fabricante": "LENOVO",
     "modelo": "THINKPAD T490",
     "sn": "PE05AT79",
     "ativo": "245",
     "carregador": "",
-    "status": "Não definido",
-    "formatado": "",
+    "status": "Estoque",
+    "formatado": "Não",
     "avariado": "Não",
     "garantia": "",
     "vendor": "LENOVO",
     "nf": "143255",
     "data": "12/26/2019",
     "valor": "6651.53",
-    "old_user": "PAULA STREIT VALLE",
+    "old_user": "Emanuelle Santos",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "user",
+        "text": "Paula Streit Valle - antes de ser da Emanuelle",
+        "date": "18/05/2026"
+      },
+      {
+        "type": "user",
+        "text": "Emanuelle Santos",
+        "date": "18/05/2026"
+      },
+      {
+        "type": "note",
+        "text": "Status: \"Não definido\" → \"Estoque\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE",
@@ -3072,8 +3116,8 @@
     "sn": "PE06BQNK",
     "ativo": "311",
     "carregador": "",
-    "status": "Não definido",
-    "formatado": "",
+    "status": "Estoque",
+    "formatado": "Não",
     "avariado": "Não",
     "garantia": "",
     "vendor": "LENOVO",
@@ -3083,7 +3127,13 @@
     "old_user": "THAIS STELA/CENDY  SANTOS",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Não definido\" → \"Estoque\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "RENAN RAMOS",
@@ -3854,7 +3904,7 @@
     "carregador": "41",
     "status": "Estoque",
     "formatado": "",
-    "avariado": "Não",
+    "avariado": "Sim",
     "garantia": "",
     "vendor": "ALLIED",
     "nf": "236721",
@@ -4232,7 +4282,7 @@
     "sn": "PE0EC4WV",
     "ativo": "",
     "carregador": "",
-    "status": "Não definido",
+    "status": "Em uso",
     "formatado": "",
     "avariado": "Não",
     "garantia": "",
@@ -4243,7 +4293,13 @@
     "old_user": "NOVO",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Não definido\" → \"Em uso\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE-ONZE",
