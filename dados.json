@@ -986,7 +986,7 @@
     "carregador": "",
     "status": "Estoque",
     "formatado": "Sim",
-    "avariado": "NÃO",
+    "avariado": "Não",
     "garantia": "",
     "vendor": "APPLE",
     "nf": "5178820",
@@ -1990,7 +1990,7 @@
     "carregador": "57354",
     "status": "Estoque",
     "formatado": "Sim",
-    "avariado": "NÃO",
+    "avariado": "Não",
     "garantia": "",
     "vendor": "APPLE",
     "nf": "194793",
@@ -2374,9 +2374,9 @@
     "sn": "PE05AT7E",
     "ativo": "47823",
     "carregador": "",
-    "status": "NÃO definido",
+    "status": "Canibalização",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "Sim",
     "garantia": "",
     "vendor": "LENOVO",
     "nf": "143255",
@@ -2385,7 +2385,13 @@
     "old_user": "RAYSA OLIVEIRA",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"NÃO definido\" → \"Canibalização\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE-ONZE",
@@ -2448,7 +2454,7 @@
     "_hist": []
   },
   {
-    "nome": "SPARE - ONZE",
+    "nome": "SPARE - ONZE - liga",
     "fabricante": "APPLE",
     "modelo": "MACBOOK PRO 13",
     "sn": "C02G59BTML7H",
@@ -2463,7 +2469,7 @@
     "data": "3/17/2022",
     "valor": "",
     "old_user": "Victor Fellype",
-    "obs": "DESGASTES NA CARCAÃA",
+    "obs": "DESGASTES NA carcaça",
     "cargo": "",
     "_hist": []
   },
@@ -3577,15 +3583,15 @@
     "_hist": []
   },
   {
-    "nome": "SPARE-OC",
+    "nome": "SPARE-OC - liga",
     "fabricante": "APPLE",
     "modelo": "MACBOOK PRO 13 (2020)",
     "sn": "C02D82A2P3YV",
     "ativo": "25",
     "carregador": "26",
-    "status": "Em uso",
-    "formatado": "",
-    "avariado": "NÃO",
+    "status": "Estoque",
+    "formatado": "Sim",
+    "avariado": "Não",
     "garantia": "",
     "vendor": "APPLE Site",
     "nf": "",
@@ -3594,7 +3600,13 @@
     "old_user": "LUCAS DANIEL BARRADAS DA SILVA",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Em uso\" → \"Estoque\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE",
