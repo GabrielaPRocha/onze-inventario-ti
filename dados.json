@@ -728,9 +728,9 @@
     "sn": "PE07R3ZQ",
     "ativo": "9",
     "carregador": "50",
-    "status": "NÃO definido",
+    "status": "Estoque",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "DIGITAL WORK",
     "nf": "9302",
@@ -739,7 +739,13 @@
     "old_user": "FERNANDA PEREIRA DOS SANTOS",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"NÃO definido\" → \"Estoque\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE - DEFEITO",
