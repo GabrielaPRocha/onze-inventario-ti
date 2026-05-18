@@ -106,7 +106,7 @@
     "sn": "PE07R46M",
     "ativo": "28",
     "carregador": "33",
-    "status": "Não definido",
+    "status": "Em uso",
     "formatado": "",
     "avariado": "Não",
     "garantia": "",
@@ -117,7 +117,13 @@
     "old_user": "NOVO",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Não definido\" → \"Em uso\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "FELIPE CALLIO",
@@ -564,7 +570,7 @@
     "sn": "PE07R401",
     "ativo": "102",
     "carregador": "101",
-    "status": "Não definido",
+    "status": "Em uso",
     "formatado": "",
     "avariado": "Não",
     "garantia": "",
@@ -575,7 +581,13 @@
     "old_user": "novo",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Não definido\" → \"Em uso\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE",
@@ -1282,7 +1294,7 @@
     "sn": "PE05P59V",
     "ativo": "355",
     "carregador": "356",
-    "status": "Não definido",
+    "status": "Em uso",
     "formatado": "",
     "avariado": "Não",
     "garantia": "",
@@ -1293,7 +1305,13 @@
     "old_user": "JANAINA SICCA",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Não definido\" → \"Em uso\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "ENDRYL SANTOS",
@@ -2536,7 +2554,7 @@
     "sn": "PE08S2HD",
     "ativo": "178",
     "carregador": "388",
-    "status": "Não definido",
+    "status": "Em uso",
     "formatado": "",
     "avariado": "Não",
     "garantia": "",
@@ -2547,7 +2565,13 @@
     "old_user": "EMILY CARVALHO",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Não definido\" → \"Em uso\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE ONZE",
