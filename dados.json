@@ -386,7 +386,7 @@
     "sn": "PE04WPB7",
     "ativo": "47757",
     "carregador": "47758",
-    "status": "Não definido",
+    "status": "Estoque",
     "formatado": "",
     "avariado": "Não",
     "garantia": "",
@@ -397,7 +397,13 @@
     "old_user": "Caroline Laudares",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Não definido\" → \"Estoque\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE- NÃO LIGA",
@@ -2600,7 +2606,7 @@
     "sn": "PE05AT7A",
     "ativo": "47860",
     "carregador": "47861",
-    "status": "Não definido",
+    "status": "Em uso",
     "formatado": "",
     "avariado": "Não",
     "garantia": "",
@@ -2611,7 +2617,13 @@
     "old_user": "VINICIUS RODRIGUES",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Não definido\" → \"Em uso\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "THAIS FERRI",
@@ -2620,7 +2632,7 @@
     "sn": "PE065JKC",
     "ativo": "57183",
     "carregador": "57184",
-    "status": "Não definido",
+    "status": "Em uso",
     "formatado": "",
     "avariado": "Não",
     "garantia": "",
@@ -2631,7 +2643,13 @@
     "old_user": "LAUANA BROK PROMENZIO",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Não definido\" → \"Em uso\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "VINICIUS SALANDIM",
