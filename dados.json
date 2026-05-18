@@ -2080,24 +2080,30 @@
     "_hist": []
   },
   {
-    "nome": "JAIME YULE JACOBSON",
+    "nome": "SPARE MACBOOK PRO 13",
     "fabricante": "APPLE",
     "modelo": "MACBOOK PRO 13",
     "sn": "C02FD8G2ML7H",
     "ativo": "57257",
     "carregador": "",
-    "status": "Em uso",
-    "formatado": "",
+    "status": "Estoque",
+    "formatado": "Sim",
     "avariado": "Não",
     "garantia": "",
     "vendor": "APPLE",
     "nf": "5492578",
     "data": "2021-01-04 00:00:00",
     "valor": "17581.3",
-    "old_user": "-",
+    "old_user": "JAIME YULE JACOBSON",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Em uso\" → \"Estoque\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE",
