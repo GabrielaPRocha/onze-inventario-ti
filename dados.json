@@ -6,8 +6,8 @@
     "sn": "C02F96KQML7H",
     "ativo": "353",
     "carregador": "354",
-    "status": "Estoque",
-    "formatado": "NÃO",
+    "status": "Sucata",
+    "formatado": "",
     "avariado": "Sim",
     "garantia": "",
     "vendor": "APPLE",
@@ -17,7 +17,13 @@
     "old_user": "MAURICIO BUENO",
     "obs": "NÃO LIGA",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Estoque\" → \"Sucata\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE -  ONZE - teclas desgastadas",
@@ -1580,8 +1586,8 @@
     "sn": "C02G78VNML7H",
     "ativo": "57",
     "carregador": "58",
-    "status": "Estoque",
-    "formatado": "NÃO",
+    "status": "Sucata",
+    "formatado": "",
     "avariado": "Sim",
     "garantia": "",
     "vendor": "ALLIED",
@@ -1591,7 +1597,13 @@
     "old_user": "MAURICIO RODRIGUES BUENO",
     "obs": "NÃO LIGA",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Estoque\" → \"Sucata\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE - ESTOQUE",
@@ -1636,7 +1648,7 @@
     "sn": "C02FL8DHML7H",
     "ativo": "57345",
     "carregador": "57346",
-    "status": "Estoque",
+    "status": "Sucata",
     "formatado": "",
     "avariado": "Sim",
     "garantia": "",
@@ -1647,7 +1659,13 @@
     "old_user": "MIQUEIAS ALAEVITON MOUREIRA",
     "obs": "LIGA SOMENTE C/ CARREGADOR E NÃO ATUALIZA",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Estoque\" → \"Sucata\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE",
@@ -2048,8 +2066,8 @@
     "sn": "C02FL888ML7H",
     "ativo": "82",
     "carregador": "83",
-    "status": "Estoque",
-    "formatado": "NÃO",
+    "status": "Sucata",
+    "formatado": "",
     "avariado": "Sim",
     "garantia": "",
     "vendor": "ALLIED",
@@ -2059,7 +2077,13 @@
     "old_user": "LUANA BRAUN",
     "obs": "NÃO LIGA",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Estoque\" → \"Sucata\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "BRUNA SOARES",
@@ -2208,8 +2232,8 @@
     "sn": "C02FL8GWML7H",
     "ativo": "80",
     "carregador": "81",
-    "status": "Estoque",
-    "formatado": "NÃO",
+    "status": "Sucata",
+    "formatado": "",
     "avariado": "Sim",
     "garantia": "",
     "vendor": "ALLIED",
@@ -2219,7 +2243,13 @@
     "old_user": "GABRIELA CALDAS JORGE",
     "obs": "NÃO LIGA,CARCAÃA COM PEQUENO DEFEITO NA TAMPA",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Estoque\" → \"Sucata\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE MACBOOK PRO 13",
@@ -2254,8 +2284,8 @@
     "sn": "C02G78UAML7H",
     "ativo": "276",
     "carregador": "277",
-    "status": "Estoque",
-    "formatado": "NÃO",
+    "status": "Sucata",
+    "formatado": "",
     "avariado": "Sim",
     "garantia": "",
     "vendor": "ALLIED",
@@ -2265,7 +2295,13 @@
     "old_user": "LUANA BRAUN",
     "obs": "NÃO LIGA",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Estoque\" → \"Sucata\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE ONZE",
@@ -2328,24 +2364,35 @@
     "_hist": []
   },
   {
-    "nome": "JAIR HENRIQUE RANGEL FRANCISCO",
+    "nome": "SPARE",
     "fabricante": "APPLE",
     "modelo": "MACBOOK PRO 13",
     "sn": "C02G623GML7H",
     "ativo": "57529",
     "carregador": "57530",
-    "status": "Em uso",
+    "status": "Estoque",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "ALLIED",
     "nf": "292416",
     "data": "2021-02-12 00:00:00",
     "valor": "18.995,10",
-    "old_user": "novo",
+    "old_user": "JAIR HENRIQUE RANGEL FRANCISCO",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "user",
+        "text": "JAIR HENRIQUE RANGEL FRANCISCO",
+        "date": "18/05/2026"
+      },
+      {
+        "type": "note",
+        "text": "Status: \"Em uso\" → \"Estoque\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE",
@@ -2585,8 +2632,8 @@
     "sn": "C02FL8E6ML7H",
     "ativo": "57341",
     "carregador": "57342",
-    "status": "Estoque",
-    "formatado": "NÃO",
+    "status": "Sucata",
+    "formatado": "",
     "avariado": "Sim",
     "garantia": "",
     "vendor": "APPLE",
@@ -2596,7 +2643,13 @@
     "old_user": "Renan Haertel",
     "obs": "NÃO LIGA",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Estoque\" → \"Sucata\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE ONZE",
@@ -3369,8 +3422,8 @@
     "sn": "C02G87CEML7H",
     "ativo": "147",
     "carregador": "148",
-    "status": "Estoque",
-    "formatado": "NÃO",
+    "status": "Sucata",
+    "formatado": "",
     "avariado": "Sim",
     "garantia": "",
     "vendor": "ALLIED",
@@ -3380,7 +3433,13 @@
     "old_user": "RENAN HAERTEL",
     "obs": "NÃO LIGA",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Estoque\" → \"Sucata\"",
+        "date": "18/05/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE",
