@@ -1,6 +1,6 @@
 [
   {
-    "nome": "SPARE - DEFEITO NÃO LIGA",
+    "nome": "SPARE - DEFEITO NÃO LIGA",
     "fabricante": "APPLE",
     "modelo": "MACBOOK PRO 13 (2021)",
     "sn": "C02F96KQML7H",
@@ -15,7 +15,7 @@
     "data": "3/30/2021",
     "valor": "",
     "old_user": "MAURICIO BUENO",
-    "obs": "NÃO LIGA",
+    "obs": "NÃO LIGA",
     "cargo": "",
     "_hist": []
   },
@@ -430,7 +430,7 @@
     ]
   },
   {
-    "nome": "SPARE- NÃO LIGA",
+    "nome": "SPARE- NÃO LIGA",
     "fabricante": "APPLE",
     "modelo": "MACBOOK PRO 13",
     "sn": "C02G43VEML7H",
@@ -1550,7 +1550,7 @@
     "_hist": []
   },
   {
-    "nome": "SPARE -DEFEITO NÃO LIGA",
+    "nome": "SPARE -DEFEITO NÃO LIGA",
     "fabricante": "APPLE",
     "modelo": "MACBOOK PRO 13",
     "sn": "C02G78VNML7H",
@@ -1565,7 +1565,7 @@
     "data": "10/14/2021",
     "valor": "",
     "old_user": "MAURICIO RODRIGUES BUENO",
-    "obs": "NÃO LIGA",
+    "obs": "NÃO LIGA",
     "cargo": "",
     "_hist": []
   },
@@ -1621,7 +1621,7 @@
     "data": "10.06.2021",
     "valor": "",
     "old_user": "MIQUEIAS ALAEVITON MOUREIRA",
-    "obs": "LIGA SOMENTE C/ CARREGADOR E NÃO ATUALIZA",
+    "obs": "LIGA SOMENTE C/ CARREGADOR E NÃO ATUALIZA",
     "cargo": "",
     "_hist": []
   },
@@ -2033,7 +2033,7 @@
     "data": "2021-07-06 00:00:00",
     "valor": "",
     "old_user": "LUANA BRAUN",
-    "obs": "NÃO LIGA",
+    "obs": "NÃO LIGA",
     "cargo": "",
     "_hist": []
   },
@@ -2193,7 +2193,7 @@
     "data": "2021-07-06 00:00:00",
     "valor": "",
     "old_user": "GABRIELA CALDAS JORGE",
-    "obs": "NÃO LIGA,CARCAÃA COM PEQUENO DEFEITO NA TAMPA",
+    "obs": "NÃO LIGA,CARCAÃA COM PEQUENO DEFEITO NA TAMPA",
     "cargo": "",
     "_hist": []
   },
@@ -2239,7 +2239,7 @@
     "data": "10/14/2021",
     "valor": "",
     "old_user": "LUANA BRAUN",
-    "obs": "NÃO LIGA",
+    "obs": "NÃO LIGA",
     "cargo": "",
     "_hist": []
   },
@@ -2565,7 +2565,7 @@
     "data": "2021-10-06 00:00:00",
     "valor": "18.939,00",
     "old_user": "Renan Haertel",
-    "obs": "NÃO LIGA",
+    "obs": "NÃO LIGA",
     "cargo": "",
     "_hist": []
   },
@@ -3343,7 +3343,7 @@
     "data": "2/15/2022",
     "valor": "18.995,10",
     "old_user": "RENAN HAERTEL",
-    "obs": "NÃO LIGA",
+    "obs": "NÃO LIGA",
     "cargo": "",
     "_hist": []
   },
