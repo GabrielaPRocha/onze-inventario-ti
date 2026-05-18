@@ -2089,7 +2089,7 @@
     "ativo": "80",
     "carregador": "81",
     "status": "Estoque",
-    "formatado": "",
+    "formatado": "Não",
     "avariado": "Sim",
     "garantia": "",
     "vendor": "ALLIED",
@@ -2097,7 +2097,7 @@
     "data": "2021-07-06 00:00:00",
     "valor": "",
     "old_user": "GABRIELA CALDAS JORGE",
-    "obs": "",
+    "obs": "NÃO LIGA,CARCAÇA COM PEQUENO DEFEITO NA TAMPA",
     "cargo": "",
     "_hist": []
   },
@@ -3476,7 +3476,7 @@
     "_hist": []
   },
   {
-    "nome": "SPARE",
+    "nome": "SPARE - FUNCIONA",
     "fabricante": "APPLE",
     "modelo": "MACBOOK PRO 13 (2021)",
     "sn": "C02FF6HFML7H",
