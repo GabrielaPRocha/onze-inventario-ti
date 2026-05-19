@@ -3004,15 +3004,15 @@
     "_hist": []
   },
   {
-    "nome": "",
+    "nome": "Henrique Pianco",
     "fabricante": "LENOVO",
     "modelo": "THINKPAD T490",
     "sn": "PE065JK3",
     "ativo": "236",
     "carregador": "",
-    "status": "NÃO definido",
+    "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "",
     "nf": "",
@@ -3020,8 +3020,14 @@
     "valor": "",
     "old_user": "Victor Gaspar",
     "obs": "",
-    "cargo": "",
-    "_hist": []
+    "cargo": "Analista de Facilities",
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"\" → \"Em uso\"",
+        "date": "19/05/2026"
+      }
+    ]
   },
   {
     "nome": "DANIELY LOPOMO",
