@@ -4117,26 +4117,6 @@
     "fabricante": "LENOVO",
     "modelo": "E14 ULTRA5",
     "sn": "",
-    "ativo": "657",
-    "carregador": "",
-    "status": "Em uso",
-    "formatado": "",
-    "avariado": "NÃO",
-    "garantia": "",
-    "vendor": "DIGITAL WORK",
-    "nf": "25945",
-    "data": "18/06/2025",
-    "valor": "6.199,00",
-    "old_user": "BARBARA SILVESTRE",
-    "obs": "",
-    "cargo": "",
-    "_hist": []
-  },
-  {
-    "nome": "",
-    "fabricante": "LENOVO",
-    "modelo": "E14 ULTRA5",
-    "sn": "",
     "ativo": "659",
     "carregador": "",
     "status": "Em uso",
@@ -4704,8 +4684,8 @@
   },
   {
     "nome": "Julia Souza",
-    "ativo": "",
-    "fabricante": "APPLE",
+    "ativo": "657",
+    "fabricante": "LENOVO",
     "modelo": "E14 ULTRA5",
     "sn": "PE0EC4ZH",
     "carregador": "",
@@ -4713,13 +4693,19 @@
     "formatado": "",
     "avariado": "Não",
     "garantia": "",
-    "vendor": "",
-    "nf": "",
-    "data": "",
+    "vendor": "DIGITAL WORK",
+    "nf": "25945",
+    "data": "18/06/2025",
     "valor": "",
-    "old_user": "",
+    "old_user": "BARBARA SILVESTRE",
     "cargo": "ANALISTA DE CUSTOMER SUCCESS PLENO",
     "obs": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "user",
+        "text": "BARBARA SILVESTRE",
+        "date": "20/05/2026"
+      }
+    ]
   }
 ]
