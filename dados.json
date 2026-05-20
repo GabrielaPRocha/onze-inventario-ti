@@ -120,7 +120,7 @@
     "carregador": "33",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "DIGITAL WORK",
     "nf": "9302",
@@ -128,7 +128,7 @@
     "valor": "7.884,00",
     "old_user": "NOVO",
     "obs": "",
-    "cargo": "",
+    "cargo": "ESPECIALISTA EM CONSULTORIA FINANCEIRA",
     "_hist": [
       {
         "type": "note",
@@ -186,7 +186,7 @@
     "carregador": "348",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "ALLIED",
     "nf": "580432",
@@ -194,7 +194,7 @@
     "valor": "13.569,54",
     "old_user": "Giovanni Bernini",
     "obs": "",
-    "cargo": "",
+    "cargo": "SENIOR FRONTEND ENGINEER",
     "_hist": []
   },
   {
@@ -240,7 +240,7 @@
     "valor": "",
     "old_user": "novo",
     "obs": "",
-    "cargo": "",
+    "cargo": "ESPECIALISTA EM CONSULTORIA FINANCEIRA",
     "_hist": [
       {
         "type": "note",
@@ -356,7 +356,7 @@
     ]
   },
   {
-    "nome": "BARBARA MIRANDA",
+    "nome": "SPARE-ONZE",
     "fabricante": "LENOVO",
     "modelo": "THINKPAD T490 (2020)",
     "sn": "PE06DSE2",
@@ -364,13 +364,13 @@
     "carregador": "57131",
     "status": "Estoque",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "LENOVO",
     "nf": "203057",
     "data": "10/16/2020",
     "valor": "8.690,52",
-    "old_user": "BRUNO CARVALHO GIAROLA",
+    "old_user": "BARBARA MIRANDA/BRUNO CARVALHO GIAROLA",
     "obs": "",
     "cargo": "",
     "_hist": [
@@ -516,7 +516,7 @@
     "carregador": "215",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "ALLIED",
     "nf": "580432",
@@ -524,7 +524,7 @@
     "valor": "13.569,54",
     "old_user": "NOVO",
     "obs": "",
-    "cargo": "",
+    "cargo": "ENGENHEIRA DE SOFTWARE SR",
     "_hist": []
   },
   {
@@ -544,7 +544,7 @@
     "valor": "",
     "old_user": "DAYANE SILVA BURGOS",
     "obs": "",
-    "cargo": "",
+    "cargo": "Associado",
     "_hist": [
       {
         "type": "note",
@@ -906,7 +906,7 @@
     "carregador": "564",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "INGRAM",
     "nf": "24052",
@@ -914,7 +914,7 @@
     "valor": "",
     "old_user": "",
     "obs": "",
-    "cargo": "",
+    "cargo": "BRAND MANAGER",
     "_hist": []
   },
   {
@@ -1900,9 +1900,9 @@
     "sn": "5HNRLY3",
     "ativo": "664",
     "carregador": "",
-    "status": "NÃO definido",
+    "status": "",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "DELL",
     "nf": "5364235",
@@ -1910,7 +1910,7 @@
     "valor": "7136.8",
     "old_user": "Renan Maglione",
     "obs": "",
-    "cargo": "",
+    "cargo": "GERENTE DE OPERAÇÕES",
     "_hist": []
   },
   {
@@ -2094,7 +2094,7 @@
     "carregador": "87",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "DIGITAL WORK",
     "nf": "9302",
@@ -2102,7 +2102,7 @@
     "valor": "7.884,00",
     "old_user": "WAGNER COSME",
     "obs": "",
-    "cargo": "",
+    "cargo": "ANALISTA DE CUSTOMER SUCCESS",
     "_hist": []
   },
   {
@@ -2680,7 +2680,7 @@
     "carregador": "388",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "DIGITAL WORK",
     "nf": "12694",
@@ -2688,7 +2688,7 @@
     "valor": "8900",
     "old_user": "EMILY CARVALHO",
     "obs": "",
-    "cargo": "",
+    "cargo": "Diretora de Operações",
     "_hist": [
       {
         "type": "note",
@@ -2898,7 +2898,7 @@
     "valor": "7612.41",
     "old_user": "LAIS GONCALVES BISPO DE SOUZA",
     "obs": "",
-    "cargo": "",
+    "cargo": "CONSULTOR FINANCEIRO SENIOR",
     "_hist": [
       {
         "type": "note",
@@ -3066,7 +3066,7 @@
     "valor": "",
     "old_user": "Pedro Casali",
     "obs": "",
-    "cargo": "",
+    "cargo": "ANALISTA DE CUSTOMER SUCCESS PLENO",
     "_hist": [
       {
         "type": "note",
@@ -3142,9 +3142,9 @@
     "sn": "PE05AT73",
     "ativo": "204",
     "carregador": "",
-    "status": "NÃO definido",
+    "status": "",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "26/04/2024",
     "vendor": "LENOVO",
     "nf": "143255",
@@ -3152,7 +3152,7 @@
     "valor": "",
     "old_user": "RUAN FRANK MENEZES SANTOS",
     "obs": "",
-    "cargo": "",
+    "cargo": "ANALISTA DE CUSTOMER SERVICE",
     "_hist": []
   },
   {
@@ -3762,7 +3762,7 @@
     "carregador": "",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "",
     "nf": "",
@@ -3770,7 +3770,7 @@
     "valor": "",
     "old_user": "NOVO",
     "obs": "",
-    "cargo": "",
+    "cargo": "PRESIDENTE",
     "_hist": []
   },
   {
@@ -4180,7 +4180,7 @@
     "carregador": "",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "DIGITAL WORK",
     "nf": "25945",
@@ -4188,7 +4188,7 @@
     "valor": "6.199,00",
     "old_user": "IGOR TRINDADE",
     "obs": "",
-    "cargo": "",
+    "cargo": "CONSULTORA FINANCEIRO SENIOR",
     "_hist": []
   },
   {
@@ -4474,7 +4474,7 @@
     "valor": "12.799",
     "old_user": "NOVO",
     "obs": "",
-    "cargo": "",
+    "cargo": "BACKEND ENGINEER",
     "_hist": [
       {
         "type": "note",
@@ -4492,7 +4492,7 @@
     "carregador": "",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "",
     "nf": "",
@@ -4500,7 +4500,7 @@
     "valor": "",
     "old_user": "NOVO",
     "obs": "",
-    "cargo": "",
+    "cargo": "COORDENADORA DE OPERAÇÕES",
     "_hist": [
       {
         "type": "note",
@@ -4538,7 +4538,7 @@
     "carregador": "612",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "INGRAM",
     "nf": "478054",
@@ -4546,7 +4546,7 @@
     "valor": "12.799",
     "old_user": "NOVO",
     "obs": "",
-    "cargo": "",
+    "cargo": "FRONTEND ENGINEER",
     "_hist": []
   },
   {
@@ -4558,7 +4558,7 @@
     "carregador": "",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "",
     "nf": "",
@@ -4566,7 +4566,7 @@
     "valor": "",
     "old_user": "NOVO",
     "obs": "",
-    "cargo": "",
+    "cargo": "DIRETORA DE OPERAÇÕES",
     "_hist": [
       {
         "type": "note",
