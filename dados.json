@@ -1808,7 +1808,7 @@
     "_hist": []
   },
   {
-    "nome": "JESSICA CARVALHO",
+    "nome": "SPARE",
     "fabricante": "LENOVO",
     "modelo": "THINKPAD T490 (2020)",
     "sn": "PE06DC6N",
@@ -1822,7 +1822,7 @@
     "nf": "203057",
     "data": "10/16/2020",
     "valor": "8.690,52",
-    "old_user": "Vinicius Bravo",
+    "old_user": "JESSICA CARVALHO/Vinicius Bravo",
     "obs": "bateria ja foi substituida",
     "cargo": "ANALISTA DE NOVOS NEGOCIOS JR",
     "_hist": []
@@ -3217,15 +3217,15 @@
     "_hist": []
   },
   {
-    "nome": "SPARE- VERIFICAR",
+    "nome": "ROGERIO MUNIZ",
     "fabricante": "LENOVO",
     "modelo": "THINKPAD T490",
     "sn": "PE05ZM0H",
     "ativo": "47933",
     "carregador": "",
-    "status": "NÃO definido",
+    "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "LENOVO",
     "nf": "176103",
@@ -3234,7 +3234,13 @@
     "old_user": "JOAO LUCAS MARICATO/FREDDY BERAKHA",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"NÃO definido\" → \"Em uso\"",
+        "date": "20/05/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE",
@@ -4053,7 +4059,7 @@
     "_hist": []
   },
   {
-    "nome": "SPARE-OC",
+    "nome": "JESSICA CARVALHO",
     "fabricante": "LENOVO",
     "modelo": "E14 ULTRA5",
     "sn": "PE0E5GC6",
@@ -4061,7 +4067,7 @@
     "carregador": "711",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "DIGITAL WORK",
     "nf": "25945",
