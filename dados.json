@@ -98,9 +98,9 @@
     "sn": "PE07R467",
     "ativo": "281",
     "carregador": "",
-    "status": "NÃO definido",
+    "status": "",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "DIGITAL WORK",
     "nf": "9302",
@@ -108,7 +108,7 @@
     "valor": "7.884,00",
     "old_user": "-",
     "obs": "",
-    "cargo": "",
+    "cargo": "DIRETOR DE INVESTIMENTOS",
     "_hist": []
   },
   {
@@ -950,9 +950,9 @@
     "sn": "PE08S2HB",
     "ativo": "299",
     "carregador": "300",
-    "status": "NÃO definido",
+    "status": "",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "DIGITAL WORK",
     "nf": "12694",
@@ -960,7 +960,7 @@
     "valor": "",
     "old_user": "novo",
     "obs": "",
-    "cargo": "",
+    "cargo": "DIRETOR DE INVESTIMENTOS",
     "_hist": []
   },
   {
@@ -1920,9 +1920,9 @@
     "sn": "PE07DTBP",
     "ativo": "703",
     "carregador": "57334",
-    "status": "NÃO definido",
+    "status": "",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "LENOVO",
     "nf": "284178",
@@ -1930,7 +1930,7 @@
     "valor": "8.392,5329",
     "old_user": "REYNALDO FERREIRA",
     "obs": "",
-    "cargo": "",
+    "cargo": "ANALISTA DE FATURAMENTO",
     "_hist": []
   },
   {
