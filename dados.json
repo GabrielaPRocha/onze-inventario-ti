@@ -146,7 +146,7 @@
     "carregador": "207",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "ALLIED",
     "nf": "580432",
@@ -154,7 +154,7 @@
     "valor": "13.569,54",
     "old_user": "NOVO",
     "obs": "",
-    "cargo": "",
+    "cargo": "DIRETOR DE PRODUTO",
     "_hist": []
   },
   {
@@ -494,9 +494,9 @@
     "sn": "PE07R40M",
     "ativo": "127",
     "carregador": "57276",
-    "status": "NÃO definido",
+    "status": "",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "DIGITAL WORK",
     "nf": "9302",
@@ -504,7 +504,7 @@
     "valor": "7.884,00",
     "old_user": "BERNARDO DE CAMPOS BORGES BARBOZA",
     "obs": "",
-    "cargo": "",
+    "cargo": "DIRETOR DE VENDAS",
     "_hist": []
   },
   {
@@ -582,7 +582,7 @@
     "carregador": "231",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "ALLIED",
     "nf": "580432",
@@ -590,7 +590,7 @@
     "valor": "",
     "old_user": "NOVO",
     "obs": "",
-    "cargo": "",
+    "cargo": "LIDER DE DESIGN",
     "_hist": []
   },
   {
@@ -602,7 +602,7 @@
     "carregador": "101",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "DIGITAL WORK",
     "nf": "9302",
@@ -610,7 +610,7 @@
     "valor": "7.884,00",
     "old_user": "novo",
     "obs": "",
-    "cargo": "",
+    "cargo": "GROUP PRODUCT MANAGER",
     "_hist": [
       {
         "type": "note",
@@ -692,9 +692,9 @@
     "sn": "PE064R14",
     "ativo": "161",
     "carregador": "253",
-    "status": "NÃO definido",
+    "status": "",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "LENOVO",
     "nf": "183897",
@@ -702,7 +702,7 @@
     "valor": "7612.41",
     "old_user": "Leone Bertozo",
     "obs": "",
-    "cargo": "",
+    "cargo": "GROUP PRODUCT MANAGER",
     "_hist": []
   },
   {
@@ -732,9 +732,9 @@
     "sn": "PE07R463",
     "ativo": "62",
     "carregador": "61",
-    "status": "NÃO definido",
+    "status": "",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "DIGITAL WORK",
     "nf": "9302",
@@ -742,7 +742,7 @@
     "valor": "7.884,00",
     "old_user": "novo",
     "obs": "",
-    "cargo": "",
+    "cargo": "COORDENADORA DE DESENVOLVIMENTO DE PESSOAS",
     "_hist": []
   },
   {
@@ -866,7 +866,7 @@
     "carregador": "554",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "INGRAM",
     "nf": "24052",
@@ -874,7 +874,7 @@
     "valor": "",
     "old_user": "NOVO",
     "obs": "",
-    "cargo": "",
+    "cargo": "STAFF ENGINEER",
     "_hist": []
   },
   {
@@ -1070,9 +1070,9 @@
     "sn": "PE06DC68",
     "ativo": "712",
     "carregador": "57133",
-    "status": "NÃO definido",
+    "status": "",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "LENOVO",
     "nf": "203057",
@@ -1080,7 +1080,7 @@
     "valor": "8.690,52",
     "old_user": "JAKELINE RIBEIRO DOS SANTOS",
     "obs": "",
-    "cargo": "",
+    "cargo": "ANALISTA DE CUSTOMER SERVICE",
     "_hist": []
   },
   {
@@ -1488,7 +1488,7 @@
     "carregador": "209",
     "status": "Estoque",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "",
     "nf": "",
@@ -1496,7 +1496,7 @@
     "valor": "",
     "old_user": "RENAN HAERTEL",
     "obs": "",
-    "cargo": "",
+    "cargo": "BACKEND ENGINEER",
     "_hist": []
   },
   {
@@ -1714,9 +1714,9 @@
     "sn": "PE08S2HE",
     "ativo": "162",
     "carregador": "163",
-    "status": "NÃO definido",
+    "status": "",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "DIGITAL WORK",
     "nf": "12694",
@@ -1724,7 +1724,7 @@
     "valor": "",
     "old_user": "GUSTAVO BESSA",
     "obs": "",
-    "cargo": "",
+    "cargo": "ANALISTA SENIOR DE QA",
     "_hist": []
   },
   {
@@ -1882,7 +1882,7 @@
     "carregador": "269",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "ALLIED",
     "nf": "33831",
@@ -1890,7 +1890,7 @@
     "valor": "",
     "old_user": "novo",
     "obs": "",
-    "cargo": "",
+    "cargo": "DESIGNER",
     "_hist": []
   },
   {
@@ -1942,7 +1942,7 @@
     "carregador": "89",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "ALLIED",
     "nf": "269163",
@@ -1950,7 +1950,7 @@
     "valor": "",
     "old_user": "novo",
     "obs": "",
-    "cargo": "",
+    "cargo": "STAFF ENGINEER",
     "_hist": []
   },
   {
@@ -2046,9 +2046,9 @@
     "sn": "PE07R46W",
     "ativo": "55",
     "carregador": "56",
-    "status": "NÃO definido",
+    "status": "",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "DIGITAL WORK",
     "nf": "9302",
@@ -2056,7 +2056,7 @@
     "valor": "7.884,00",
     "old_user": "SPARE",
     "obs": "",
-    "cargo": "",
+    "cargo": "GERENTE DE CONTEUDO",
     "_hist": []
   },
   {
@@ -2792,7 +2792,7 @@
     "carregador": "47861",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "LENOVO",
     "nf": "143255",
@@ -2800,7 +2800,7 @@
     "valor": "6.651,53",
     "old_user": "VINICIUS RODRIGUES",
     "obs": "",
-    "cargo": "",
+    "cargo": "ANALISTA DE SUPORTE DE TI",
     "_hist": [
       {
         "type": "note",
@@ -3036,9 +3036,9 @@
     "sn": "PE065JKA",
     "ativo": "201",
     "carregador": "57278",
-    "status": "NÃO definido",
+    "status": "",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "DIGITAL WORK",
     "nf": "6250",
@@ -3046,7 +3046,7 @@
     "valor": "5.970,00",
     "old_user": "RENATA LEDANDECK",
     "obs": "",
-    "cargo": "",
+    "cargo": "ANALISTA DE CUSTOMER SUCCESS",
     "_hist": []
   },
   {
@@ -3102,9 +3102,9 @@
     "sn": "PE05AT7D",
     "ativo": "378",
     "carregador": "",
-    "status": "NÃO definido",
+    "status": "",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "LENOVO",
     "nf": "143255",
@@ -3112,7 +3112,7 @@
     "valor": "",
     "old_user": "GABRIEL ALMEIDA",
     "obs": "",
-    "cargo": "",
+    "cargo": "REDATOR",
     "_hist": []
   },
   {
@@ -3568,15 +3568,15 @@
     "_hist": []
   },
   {
-    "nome": "",
+    "nome": "SPARE-ONZE",
     "fabricante": "LENOVO",
     "modelo": "E14",
     "sn": "PE0CZPSK",
     "ativo": "551",
     "carregador": "552",
-    "status": "NÃO definido",
+    "status": "",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "LENOVO",
     "nf": "",
@@ -3616,7 +3616,7 @@
     "carregador": "83",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "Fastshop",
     "nf": "",
@@ -3624,7 +3624,7 @@
     "valor": "",
     "old_user": "GIOVANA ARAUJO",
     "obs": "",
-    "cargo": "",
+    "cargo": "ANALISTA DE MARKETING",
     "_hist": []
   },
   {
@@ -3962,7 +3962,7 @@
     "valor": "",
     "old_user": "NOVO",
     "obs": "",
-    "cargo": "",
+    "cargo": "ANALISTA DE CUSTOMER SUCCESS SR",
     "_hist": [
       {
         "type": "note",
@@ -4040,7 +4040,7 @@
     "carregador": "",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "DIGITAL WORK",
     "nf": "25945",
@@ -4048,7 +4048,7 @@
     "valor": "7.199,00",
     "old_user": "NOVO",
     "obs": "",
-    "cargo": "",
+    "cargo": "GERENTE DE BACKOFFICE",
     "_hist": []
   },
   {
@@ -4212,7 +4212,7 @@
     "_hist": []
   },
   {
-    "nome": "FELIPE CALLIO",
+    "nome": "SPARE",
     "fabricante": "LENOVO",
     "modelo": "E14 ULTRA5",
     "sn": "PE0EC4W9",
@@ -4220,16 +4220,22 @@
     "carregador": "702",
     "status": "Estoque",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "DIGITAL WORK",
     "nf": "25945",
     "data": "18/06/2025",
     "valor": "6.199,00",
-    "old_user": "NOVO",
+    "old_user": "FELIPE CALLIO",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "user",
+        "text": "FELIPE CALLIO",
+        "date": "20/05/2026"
+      }
+    ]
   },
   {
     "nome": "FAUSTO MOREIRA",
@@ -4306,7 +4312,7 @@
     "carregador": "665",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "DIGITAL WORK",
     "nf": "25945",
@@ -4314,7 +4320,7 @@
     "valor": "6.199,00",
     "old_user": "NOVO",
     "obs": "",
-    "cargo": "",
+    "cargo": "DESIGNER",
     "_hist": []
   },
   {
