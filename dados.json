@@ -82,7 +82,7 @@
     "valor": "6749.25",
     "old_user": "AE NOK",
     "obs": "",
-    "cargo": "",
+    "cargo": "ANALISTA DE OPERAÇÕES",
     "_hist": [
       {
         "type": "note",
@@ -258,7 +258,7 @@
     "carregador": "229",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "ALLIED",
     "nf": "580432",
@@ -266,7 +266,7 @@
     "valor": "13.569,54",
     "old_user": "NOVO",
     "obs": "",
-    "cargo": "",
+    "cargo": "DIRETOR TECNICO",
     "_hist": []
   },
   {
@@ -390,7 +390,7 @@
     "carregador": "211",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "ALLIED",
     "nf": "580432",
@@ -398,7 +398,7 @@
     "valor": "13.569,54",
     "old_user": "NOVO",
     "obs": "",
-    "cargo": "",
+    "cargo": "DIRETOR DE ENGENHARIA",
     "_hist": []
   },
   {
@@ -972,7 +972,7 @@
     "carregador": "559",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "INGRAM",
     "nf": "24052",
@@ -980,7 +980,7 @@
     "valor": "",
     "old_user": "NOVO",
     "obs": "",
-    "cargo": "",
+    "cargo": "STAFF ENGINEER",
     "_hist": []
   },
   {
@@ -1568,7 +1568,7 @@
     "carregador": "193",
     "status": "Estoque",
     "formatado": "Sim",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "LENOVO",
     "nf": "262138",
@@ -1576,7 +1576,7 @@
     "valor": "",
     "old_user": "FERNANDA SANTOS",
     "obs": "",
-    "cargo": "",
+    "cargo": "ANALISTA DE DEPARTAMENTO PESSOAL PLENO",
     "_hist": []
   },
   {
@@ -1982,7 +1982,7 @@
     "carregador": "75",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "DIGITAL WORK",
     "nf": "9302",
@@ -1990,7 +1990,7 @@
     "valor": "7.884,00",
     "old_user": "",
     "obs": "",
-    "cargo": "",
+    "cargo": "COO - DIRETOR DE NEGOCIOS SR",
     "_hist": [
       {
         "type": "note",
@@ -2549,21 +2549,22 @@
     "carregador": "126",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "LENOVO",
     "nf": "278947",
     "data": "5/31/2021",
     "valor": "9.612,6780",
     "obs": "",
-    "cargo": "",
+    "cargo": "COORDENADOR DE CUSTOMER SUCCESS",
     "_hist": [
       {
         "type": "note",
         "text": "Status: \"Estoque\" --> \"Em uso\"",
         "date": "18/05/2026"
       }
-    ]
+    ],
+    "old_user": ""
   },
   {
     "nome": "SPARE",
@@ -2818,7 +2819,7 @@
     "carregador": "57184",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "DIGITAL WORK",
     "nf": "6250",
@@ -2826,7 +2827,7 @@
     "valor": "5.970,00",
     "old_user": "LAUANA BROK PROMENZIO",
     "obs": "",
-    "cargo": "",
+    "cargo": "COORDENADOR DE CUSTOMER SUCCESS",
     "_hist": [
       {
         "type": "note",
@@ -3516,7 +3517,7 @@
     "carregador": "7",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "APPLE",
     "nf": "194793",
@@ -3524,7 +3525,7 @@
     "valor": "18.939,00",
     "old_user": "",
     "obs": "",
-    "cargo": "",
+    "cargo": "DESENVOLVEDOR JR",
     "_hist": []
   },
   {
@@ -4020,7 +4021,7 @@
     "carregador": "",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "DIGITAL WORK",
     "nf": "25945",
@@ -4028,7 +4029,7 @@
     "valor": "7.199,00",
     "old_user": "NOVO",
     "obs": "",
-    "cargo": "",
+    "cargo": "SUPERINTENDENTE DE VENDAS",
     "_hist": []
   },
   {
@@ -4080,7 +4081,7 @@
     "carregador": "",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "DIGITAL WORK",
     "nf": "25945",
@@ -4088,7 +4089,7 @@
     "valor": "6.199,00",
     "old_user": "MARCOS CANDIDO",
     "obs": "",
-    "cargo": "",
+    "cargo": "GERENTE DE LEGAL & COMPLIANCE",
     "_hist": []
   },
   {
