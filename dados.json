@@ -4694,5 +4694,25 @@
     "obs": "",
     "cargo": "",
     "_hist": []
+  },
+  {
+    "nome": "Julia Souza",
+    "ativo": "",
+    "fabricante": "APPLE",
+    "modelo": "E14 ULTRA5",
+    "sn": "PE0EC4ZH",
+    "carregador": "",
+    "status": "Em uso",
+    "formatado": "",
+    "avariado": "Não",
+    "garantia": "",
+    "vendor": "",
+    "nf": "",
+    "data": "",
+    "valor": "",
+    "old_user": "",
+    "cargo": "",
+    "obs": "",
+    "_hist": []
   }
 ]
