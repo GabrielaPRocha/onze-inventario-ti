@@ -2395,15 +2395,15 @@
     ]
   },
   {
-    "nome": "SPARE",
+    "nome": "SPARE - não liga",
     "fabricante": "DELL",
     "modelo": "LATITUDE 5430",
     "sn": "4HNRLY3",
     "ativo": "293",
     "carregador": "294",
-    "status": "NÃO definido",
+    "status": "Canibalização",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "Sim",
     "garantia": "",
     "vendor": "DELL",
     "nf": "5364235",
@@ -2412,7 +2412,13 @@
     "old_user": "RENAN PIETRO MAGLIONE",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"NÃO definido\" → \"Canibalização\"",
+        "date": "25/05/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE - DEFEITO",
