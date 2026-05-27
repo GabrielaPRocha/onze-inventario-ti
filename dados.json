@@ -1506,7 +1506,7 @@
     "sn": "PE065JKR",
     "ativo": "103",
     "carregador": "104/ 57197",
-    "status": "",
+    "status": "Em uso",
     "formatado": "",
     "avariado": "",
     "garantia": "",
@@ -1517,7 +1517,13 @@
     "old_user": "MATHEUS FRANCO",
     "obs": "",
     "cargo": "CONSULTORA FINANCEIRA",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"\" → \"Em uso\"",
+        "date": "27/05/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE ONZE - TELA QUEBRADA",
@@ -1714,7 +1720,7 @@
     "sn": "PE08S2HE",
     "ativo": "162",
     "carregador": "163",
-    "status": "",
+    "status": "Em uso",
     "formatado": "",
     "avariado": "",
     "garantia": "",
@@ -1725,7 +1731,13 @@
     "old_user": "GUSTAVO BESSA",
     "obs": "",
     "cargo": "ANALISTA SENIOR DE QA",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"\" → \"Em uso\"",
+        "date": "27/05/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE",
@@ -3043,7 +3055,7 @@
     "sn": "PE065JKA",
     "ativo": "201",
     "carregador": "57278",
-    "status": "",
+    "status": "Em uso",
     "formatado": "",
     "avariado": "",
     "garantia": "",
@@ -3054,7 +3066,13 @@
     "old_user": "RENATA LEDANDECK",
     "obs": "",
     "cargo": "ANALISTA DE CUSTOMER SUCCESS",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"\" → \"Em uso\"",
+        "date": "27/05/2026"
+      }
+    ]
   },
   {
     "nome": "ASHLEY BATISTA",
@@ -3149,7 +3167,7 @@
     "sn": "PE05AT73",
     "ativo": "204",
     "carregador": "",
-    "status": "",
+    "status": "Em uso",
     "formatado": "",
     "avariado": "",
     "garantia": "26/04/2024",
@@ -3160,7 +3178,13 @@
     "old_user": "RUAN FRANK MENEZES SANTOS",
     "obs": "",
     "cargo": "ANALISTA DE CUSTOMER SERVICE",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"\" → \"Em uso\"",
+        "date": "27/05/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE",
