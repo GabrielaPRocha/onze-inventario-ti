@@ -732,7 +732,7 @@
     "sn": "PE07R463",
     "ativo": "62",
     "carregador": "61",
-    "status": "",
+    "status": "Em uso",
     "formatado": "",
     "avariado": "",
     "garantia": "",
@@ -743,7 +743,13 @@
     "old_user": "novo",
     "obs": "",
     "cargo": "COORDENADORA DE DESENVOLVIMENTO DE PESSOAS",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"\" → \"Em uso\"",
+        "date": "27/05/2026"
+      }
+    ]
   },
   {
     "nome": "LUCCAS GUTIERRE",
