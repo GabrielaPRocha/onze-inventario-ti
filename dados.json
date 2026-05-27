@@ -830,7 +830,7 @@
     "sn": "PE065JL1",
     "ativo": "109",
     "carregador": "249",
-    "status": "",
+    "status": "Em uso",
     "formatado": "",
     "avariado": "",
     "garantia": "",
@@ -841,7 +841,13 @@
     "old_user": "ANGELICA SALADO",
     "obs": "",
     "cargo": "ANALISTA DE CUSTOMER SUCCESS JR",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"\" → \"Em uso\"",
+        "date": "27/05/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE - ONZE",
@@ -3955,9 +3961,9 @@
     "sn": "PE0CZPS0",
     "ativo": "456",
     "carregador": "",
-    "status": "NÃO definido",
+    "status": "Estoque",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "LENOVO",
     "nf": "",
@@ -3966,7 +3972,13 @@
     "old_user": "JULIA SOUZA",
     "obs": "solicitou uma maquina  que enviassemos para a icatu",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"NÃO definido\" → \"Estoque\"",
+        "date": "27/05/2026"
+      }
+    ]
   },
   {
     "nome": "Leticia franco",
@@ -3975,7 +3987,7 @@
     "sn": "PE0E5GDJ",
     "ativo": "749",
     "carregador": "750",
-    "status": "",
+    "status": "Em uso",
     "formatado": "",
     "avariado": "",
     "garantia": "",
@@ -3986,7 +3998,13 @@
     "old_user": "NOVO",
     "obs": "",
     "cargo": "ANALISTA DE RECURSOS HUMANOS",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"\" → \"Em uso\"",
+        "date": "27/05/2026"
+      }
+    ]
   },
   {
     "nome": "GABRIEL ALMEIDA",
@@ -4021,7 +4039,7 @@
     "sn": "PE0E5GDE",
     "ativo": "747",
     "carregador": "748",
-    "status": "",
+    "status": "Em uso",
     "formatado": "",
     "avariado": "",
     "garantia": "",
@@ -4032,7 +4050,13 @@
     "old_user": "NOVO",
     "obs": "",
     "cargo": "EXECULTIVO DE CONTAS CORPORATIVAS",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"\" → \"Em uso\"",
+        "date": "27/05/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE",
