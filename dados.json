@@ -962,7 +962,7 @@
     "sn": "PE08S2HB",
     "ativo": "299",
     "carregador": "300",
-    "status": "",
+    "status": "Em uso",
     "formatado": "",
     "avariado": "",
     "garantia": "",
@@ -973,7 +973,13 @@
     "old_user": "novo",
     "obs": "",
     "cargo": "DIRETOR DE INVESTIMENTOS",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"\" → \"Em uso\"",
+        "date": "27/05/2026"
+      }
+    ]
   },
   {
     "nome": "VICTOR FELLYPE",
