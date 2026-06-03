@@ -1630,15 +1630,15 @@
     ]
   },
   {
-    "nome": "SPARE - ESTOQUE",
+    "nome": "Guina Amaro",
     "fabricante": "LENOVO",
     "modelo": "THINKPAD T490",
     "sn": "PE05AT74",
     "ativo": "285",
     "carregador": "340",
-    "status": "Estoque",
-    "formatado": "NÃO",
-    "avariado": "NÃO",
+    "status": "Em uso",
+    "formatado": "",
+    "avariado": "",
     "garantia": "",
     "vendor": "LENOVO",
     "nf": "143255",
@@ -1662,6 +1662,16 @@
         "type": "note",
         "text": "Status: \"NÃO definido\" --> \"Estoque\"",
         "date": "18/05/2026"
+      },
+      {
+        "type": "user",
+        "text": "Guina Amaro - hire",
+        "date": "03/06/2026"
+      },
+      {
+        "type": "note",
+        "text": "Status: \"Estoque\" → \"Em uso\"",
+        "date": "03/06/2026"
       }
     ]
   },
