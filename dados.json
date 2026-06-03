@@ -3573,14 +3573,14 @@
     "_hist": []
   },
   {
-    "nome": "VICTOR BECCARE",
+    "nome": "SPARE-ONZE",
     "fabricante": "APPLE",
     "modelo": "MACBOOK PRO 13",
     "sn": "C02FL5L3ML7H",
     "ativo": "8",
     "carregador": "7",
-    "status": "Em uso",
-    "formatado": "",
+    "status": "Estoque",
+    "formatado": "Não",
     "avariado": "",
     "garantia": "",
     "vendor": "APPLE",
@@ -3590,7 +3590,13 @@
     "old_user": "",
     "obs": "",
     "cargo": "DESENVOLVEDOR JR",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Em uso\" → \"Estoque\"",
+        "date": "03/06/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE",
