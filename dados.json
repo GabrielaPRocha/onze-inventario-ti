@@ -4771,13 +4771,13 @@
     "_hist": []
   },
   {
-    "nome": "Julia Souza",
+    "nome": "SPARE-ONZE",
     "ativo": "657",
     "fabricante": "LENOVO",
     "modelo": "E14 ULTRA5",
     "sn": "PE0EC4ZH",
     "carregador": "",
-    "status": "Em uso",
+    "status": "Estoque",
     "formatado": "",
     "avariado": "Não",
     "garantia": "",
@@ -4793,6 +4793,16 @@
         "type": "user",
         "text": "BARBARA SILVESTRE",
         "date": "20/05/2026"
+      },
+      {
+        "type": "note",
+        "text": "Status: \"Em uso\" → \"Estoque\"",
+        "date": "10/06/2026"
+      },
+      {
+        "type": "user",
+        "text": "Julia Souza",
+        "date": "10/06/2026"
       }
     ]
   }
