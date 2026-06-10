@@ -4771,13 +4771,13 @@
     "_hist": []
   },
   {
-    "nome": "SPARE-ONZE",
+    "nome": "Aline Garcia",
     "ativo": "657",
     "fabricante": "LENOVO",
     "modelo": "E14 ULTRA5",
     "sn": "PE0EC4ZH",
     "carregador": "",
-    "status": "Estoque",
+    "status": "Em uso",
     "formatado": "",
     "avariado": "Não",
     "garantia": "",
@@ -4802,6 +4802,11 @@
       {
         "type": "user",
         "text": "Julia Souza",
+        "date": "10/06/2026"
+      },
+      {
+        "type": "note",
+        "text": "Status: \"Estoque\" → \"Em uso\"",
         "date": "10/06/2026"
       }
     ]
