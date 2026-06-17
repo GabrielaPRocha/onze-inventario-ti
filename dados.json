@@ -1142,7 +1142,7 @@
     "_hist": []
   },
   {
-    "nome": "SILVIO JUNIOR",
+    "nome": "FRANCIANE PEDRONI",
     "fabricante": "DELL",
     "modelo": "LATITUDE 5430",
     "sn": "6HNRLY3",
@@ -1150,13 +1150,13 @@
     "carregador": "283",
     "status": "Estoque",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "DELL",
     "nf": "5364235",
     "data": "2023-03-07 00:00:00",
     "valor": "7136.8",
-    "old_user": "JULIANA PIGOZZI",
+    "old_user": "FRANCINE PEDRONI/SILVIO JUNIOR/JULIANA PIGOZZI",
     "obs": "",
     "cargo": "",
     "_hist": [
@@ -1164,6 +1164,11 @@
         "type": "note",
         "text": "Status: \"NÃO definido\" --> \"Estoque\"",
         "date": "18/05/2026"
+      },
+      {
+        "type": "user",
+        "text": "francine pedroni",
+        "date": "17/06/2026"
       }
     ]
   },
