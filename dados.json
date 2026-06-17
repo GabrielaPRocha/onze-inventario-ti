@@ -1300,7 +1300,7 @@
     "_hist": []
   },
   {
-    "nome": "SPARE",
+    "nome": "William Almeida",
     "fabricante": "LENOVO",
     "modelo": "THINKPAD T490",
     "sn": "PE05AT76",
@@ -1308,7 +1308,7 @@
     "carregador": "",
     "status": "Estoque",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "LENOVO",
     "nf": "143255",
@@ -1317,7 +1317,13 @@
     "old_user": "Enzo Correia",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "user",
+        "text": "William Almeida",
+        "date": "16/06/2026"
+      }
+    ]
   },
   {
     "nome": "LETICIA SILVA DE OLIVEIRA",
@@ -4585,24 +4591,30 @@
     ]
   },
   {
-    "nome": "EVERTON SOARES SANTOS",
+    "nome": "ARIANE DESTRO",
     "fabricante": "LENOVO",
     "modelo": "E14 ULTRA5",
     "sn": "PE0EC4EV",
     "ativo": "602",
     "carregador": "603",
-    "status": "NÃO definido",
+    "status": "",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "DIGITAL WORK",
     "nf": "25945",
     "data": "18/06/2025",
     "valor": "6.199,00",
-    "old_user": "NOVO",
+    "old_user": "EVERTON SOARES SANTOS",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "user",
+        "text": "ARIANE DESTRO",
+        "date": "17/06/2026"
+      }
+    ]
   },
   {
     "nome": "BEATRIZ CUNHA",
