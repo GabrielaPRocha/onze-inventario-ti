@@ -2741,28 +2741,33 @@
     "_hist": []
   },
   {
-    "nome": "ALINE GARCIA",
+    "nome": "SPARE-ONZE",
     "fabricante": "LENOVO",
     "modelo": "THINKPAD T14",
     "sn": "PE08S2HD",
     "ativo": "178",
     "carregador": "388",
-    "status": "Em uso",
-    "formatado": "",
-    "avariado": "",
+    "status": "Estoque",
+    "formatado": "Não",
+    "avariado": "Não",
     "garantia": "",
     "vendor": "DIGITAL WORK",
     "nf": "12694",
     "data": "4/26/2022",
     "valor": "8900",
-    "old_user": "EMILY CARVALHO",
+    "old_user": "ALINE GARCIA/EMILY CARVALHO",
     "obs": "",
-    "cargo": "Diretora de Operações",
+    "cargo": "",
     "_hist": [
       {
         "type": "note",
         "text": "Status: \"NÃO definido\" --> \"Em uso\"",
         "date": "18/05/2026"
+      },
+      {
+        "type": "note",
+        "text": "Status: \"Em uso\" → \"Estoque\"",
+        "date": "17/06/2026"
       }
     ]
   },
