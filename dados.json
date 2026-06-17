@@ -1148,7 +1148,7 @@
     "sn": "6HNRLY3",
     "ativo": "282",
     "carregador": "283",
-    "status": "Estoque",
+    "status": "Em uso",
     "formatado": "",
     "avariado": "",
     "garantia": "",
@@ -1168,6 +1168,11 @@
       {
         "type": "user",
         "text": "francine pedroni",
+        "date": "17/06/2026"
+      },
+      {
+        "type": "note",
+        "text": "Status: \"Estoque\" → \"Em uso\"",
         "date": "17/06/2026"
       }
     ]
@@ -1951,7 +1956,7 @@
     "sn": "5HNRLY3",
     "ativo": "664",
     "carregador": "",
-    "status": "",
+    "status": "Em uso",
     "formatado": "",
     "avariado": "",
     "garantia": "",
@@ -1962,7 +1967,13 @@
     "old_user": "Renan Maglione",
     "obs": "",
     "cargo": "GERENTE DE OPERAÇÕES",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"\" → \"Em uso\"",
+        "date": "17/06/2026"
+      }
+    ]
   },
   {
     "nome": "GABRIELLE DUTRA",
@@ -4602,7 +4613,7 @@
     "sn": "PE0EC4EV",
     "ativo": "602",
     "carregador": "603",
-    "status": "",
+    "status": "Em uso",
     "formatado": "",
     "avariado": "",
     "garantia": "",
@@ -4617,6 +4628,11 @@
       {
         "type": "user",
         "text": "ARIANE DESTRO",
+        "date": "17/06/2026"
+      },
+      {
+        "type": "note",
+        "text": "Status: \"\" → \"Em uso\"",
         "date": "17/06/2026"
       }
     ]
