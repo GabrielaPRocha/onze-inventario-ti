@@ -4380,24 +4380,35 @@
     ]
   },
   {
-    "nome": "GABRIELA CALDAS",
+    "nome": "SPARE",
     "fabricante": "LENOVO",
     "modelo": "E14 ULTRA5",
     "sn": "PE0EC4EF",
     "ativo": "728",
     "carregador": "729",
-    "status": "Em uso",
+    "status": "Estoque",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "DIGITAL WORK",
     "nf": "25945",
     "data": "18/06/2025",
     "valor": "6.199,00",
-    "old_user": "NOVO",
+    "old_user": "GABRIELA CALDAS/NOVO",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "user",
+        "text": "GABRIELA CALDAS",
+        "date": "23/06/2026"
+      },
+      {
+        "type": "note",
+        "text": "Status: \"Em uso\" → \"Estoque\"",
+        "date": "23/06/2026"
+      }
+    ]
   },
   {
     "nome": "CLAYGREGORI MATOS",
