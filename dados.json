@@ -666,7 +666,7 @@
     ]
   },
   {
-    "nome": "Guilherme Anguiano",
+    "nome": "ADRIANO LOCHE",
     "fabricante": "APPLE",
     "modelo": "MACBOOK AIR M3",
     "sn": "GVJJ64JYQ5",
@@ -674,16 +674,22 @@
     "carregador": "321",
     "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "INGRAM",
     "nf": "24052",
     "data": "",
     "valor": "",
-    "old_user": "NOVO",
+    "old_user": "/Guilherme Anguiano/NOVO",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "user",
+        "text": "ADRIANO LOCHE",
+        "date": "10/07/2026"
+      }
+    ]
   },
   {
     "nome": "FABIO DEBIAZZI OREFICE",
