@@ -554,7 +554,7 @@
     ]
   },
   {
-    "nome": "LUCAS DANIEL",
+    "nome": "Claygregori Matos",
     "fabricante": "APPLE",
     "modelo": "MACBOOK AIR M3",
     "sn": "FNW703Y7DT",
@@ -568,10 +568,16 @@
     "nf": "580432",
     "data": "18/06/2024",
     "valor": "13.569,54",
-    "old_user": "NOVO",
+    "old_user": "LUCAS DANIEL/NOVO",
     "obs": "",
-    "cargo": "SENIOR BACKEND ENGINEER",
-    "_hist": []
+    "cargo": "DESGNER",
+    "_hist": [
+      {
+        "type": "user",
+        "text": "LUCAS DANIEL BARRADAS",
+        "date": "16/07/2026"
+      }
+    ]
   },
   {
     "nome": "GABRIELA CALDAS",
