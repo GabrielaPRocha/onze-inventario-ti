@@ -3466,24 +3466,30 @@
     ]
   },
   {
-    "nome": "RENAN RAMOS",
+    "nome": "SPARE ONZE",
     "fabricante": "LENOVO",
     "modelo": "THINKPAD T490",
     "sn": "PE06BQNQ",
     "ativo": "383",
     "carregador": "",
-    "status": "NÃO definido",
+    "status": "Estoque",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "Não",
     "garantia": "",
     "vendor": "LENOVO",
     "nf": "203057",
     "data": "",
     "valor": "",
-    "old_user": "Lais Alves",
+    "old_user": "RENAN RAMOS/Lais Alves",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"\" → \"Estoque\"",
+        "date": "23/07/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE",
