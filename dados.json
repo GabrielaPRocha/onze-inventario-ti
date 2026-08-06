@@ -1962,12 +1962,12 @@
     "_hist": []
   },
   {
-    "nome": "ARIANE DESTRO",
+    "nome": "GABRIEL ALMEIDA",
     "fabricante": "DELL",
     "modelo": "LATITUDE 5430",
     "sn": "5HNRLY3",
     "ativo": "664",
-    "carregador": "",
+    "carregador": "294",
     "status": "Em uso",
     "formatado": "",
     "avariado": "",
@@ -1976,14 +1976,19 @@
     "nf": "5364235",
     "data": "2023-03-07 00:00:00",
     "valor": "7136.8",
-    "old_user": "Renan Maglione",
+    "old_user": "ARIANE DESTRO/Renan Maglione",
     "obs": "",
-    "cargo": "GERENTE DE OPERAÇÕES",
+    "cargo": "",
     "_hist": [
       {
         "type": "note",
         "text": "Status: \"\" → \"Em uso\"",
         "date": "17/06/2026"
+      },
+      {
+        "type": "user",
+        "text": "ARIANE DESTRO",
+        "date": "06/08/2026"
       }
     ]
   },
