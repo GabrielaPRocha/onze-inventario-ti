@@ -3471,7 +3471,7 @@
     ]
   },
   {
-    "nome": "SPARE ONZE",
+    "nome": "CARLOS MONTEIRO",
     "fabricante": "LENOVO",
     "modelo": "THINKPAD T490",
     "sn": "PE06BQNQ",
@@ -3485,14 +3485,19 @@
     "nf": "203057",
     "data": "",
     "valor": "",
-    "old_user": "RENAN RAMOS/Lais Alves",
+    "old_user": "CARLOS MOREIRA/RENAN RAMOS/Lais Alves",
     "obs": "",
-    "cargo": "",
+    "cargo": "ANALISTA DE TI",
     "_hist": [
       {
         "type": "note",
         "text": "Status: \"\" → \"Estoque\"",
         "date": "23/07/2026"
+      },
+      {
+        "type": "user",
+        "text": "carlos moreira",
+        "date": "14/08/2026"
       }
     ]
   },
