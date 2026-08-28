@@ -4408,13 +4408,13 @@
     ]
   },
   {
-    "nome": "SPARE",
+    "nome": "Humberto Cavalcanti",
     "fabricante": "LENOVO",
     "modelo": "E14 ULTRA5",
     "sn": "PE0EC4EF",
     "ativo": "728",
-    "carregador": "729",
-    "status": "Estoque",
+    "carregador": "611",
+    "status": "Em uso",
     "formatado": "",
     "avariado": "",
     "garantia": "",
@@ -4435,6 +4435,11 @@
         "type": "note",
         "text": "Status: \"Em uso\" → \"Estoque\"",
         "date": "23/06/2026"
+      },
+      {
+        "type": "note",
+        "text": "Status: \"Estoque\" → \"Em uso\"",
+        "date": "28/08/2026"
       }
     ]
   },
