@@ -4524,13 +4524,13 @@
     "_hist": []
   },
   {
-    "nome": "PAULO OLIVEIRA",
+    "nome": "SPARE",
     "fabricante": "APPLE",
     "modelo": "MACBOOK AIR M4",
     "sn": "KW4C30WDF2",
     "ativo": "697",
     "carregador": "698",
-    "status": "Em uso",
+    "status": "Estoque",
     "formatado": "",
     "avariado": "",
     "garantia": "",
@@ -4538,10 +4538,21 @@
     "nf": "478054",
     "data": "2025-03-11 00:00:00",
     "valor": "12.799",
-    "old_user": "NOVO",
+    "old_user": "PAULO OLIVEIRA/NOVO",
     "obs": "",
     "cargo": "Senior Backend Engineer",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "user",
+        "text": "PAULO OLIVEIRA",
+        "date": "03/09/2026"
+      },
+      {
+        "type": "note",
+        "text": "Status: \"Em uso\" → \"Estoque\"",
+        "date": "03/09/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE-ONZE",
