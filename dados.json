@@ -4336,13 +4336,13 @@
     "_hist": []
   },
   {
-    "nome": "SPARE",
+    "nome": "Caroline Celestino",
     "fabricante": "LENOVO",
     "modelo": "E14 ULTRA5",
     "sn": "PE0EC4W9",
     "ativo": "701",
     "carregador": "702",
-    "status": "Estoque",
+    "status": "Em uso",
     "formatado": "",
     "avariado": "",
     "garantia": "",
@@ -4358,6 +4358,16 @@
         "type": "user",
         "text": "FELIPE CALLIO",
         "date": "20/05/2026"
+      },
+      {
+        "type": "user",
+        "text": "Caroline Celestino",
+        "date": "07/10/2026"
+      },
+      {
+        "type": "note",
+        "text": "Status: \"Estoque\" → \"Em uso\"",
+        "date": "07/10/2026"
       }
     ]
   },
