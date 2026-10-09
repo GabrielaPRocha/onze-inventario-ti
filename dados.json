@@ -3721,8 +3721,8 @@
     "ativo": "67",
     "carregador": "68",
     "status": "Estoque",
-    "formatado": "",
-    "avariado": "NÃO",
+    "formatado": "Sim",
+    "avariado": "Não",
     "garantia": "",
     "vendor": "Fastshop",
     "nf": "verificar",
@@ -3730,7 +3730,7 @@
     "valor": "verificar",
     "old_user": "CAMILA SOARES DO NASCIMENTO",
     "obs": "",
-    "cargo": "",
+    "cargo": "pode ser vendido",
     "_hist": []
   },
   {
