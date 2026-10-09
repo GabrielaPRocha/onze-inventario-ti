@@ -3662,7 +3662,7 @@
     "carregador": "57542",
     "status": "Estoque",
     "formatado": "Sim",
-    "avariado": "NÃO",
+    "avariado": "Não",
     "garantia": "",
     "vendor": "ALLIED",
     "nf": "315235",
@@ -3670,7 +3670,7 @@
     "valor": "",
     "old_user": "TIAGO MARIANI PALTE",
     "obs": "APARENTEMENTE OK",
-    "cargo": "",
+    "cargo": "pode ser vendido",
     "_hist": []
   },
   {
