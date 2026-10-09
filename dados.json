@@ -4144,7 +4144,7 @@
     "carregador": "32",
     "status": "Estoque",
     "formatado": "Sim",
-    "avariado": "NÃO",
+    "avariado": "Não",
     "garantia": "",
     "vendor": "ALLIED",
     "nf": "220206",
@@ -4152,7 +4152,7 @@
     "valor": "18.939,00",
     "old_user": "Jair Rangel",
     "obs": "",
-    "cargo": "",
+    "cargo": "pode ser vendido",
     "_hist": []
   },
   {
