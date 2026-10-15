@@ -4424,16 +4424,16 @@
     "sn": "PE0EC4EF",
     "ativo": "728",
     "carregador": "611",
-    "status": "Em uso",
-    "formatado": "",
-    "avariado": "",
+    "status": "Estoque",
+    "formatado": "Não",
+    "avariado": "Sim",
     "garantia": "",
     "vendor": "DIGITAL WORK",
     "nf": "25945",
     "data": "18/06/2025",
     "valor": "6.199,00",
     "old_user": "GABRIELA CALDAS/NOVO",
-    "obs": "",
+    "obs": "Humberto Cavalcanti - gato mordeu a tela, necessario troca",
     "cargo": "",
     "_hist": [
       {
@@ -4450,6 +4450,16 @@
         "type": "note",
         "text": "Status: \"Estoque\" → \"Em uso\"",
         "date": "28/08/2026"
+      },
+      {
+        "type": "user",
+        "text": "Humberto Cavalcanti - tela quebrada por mal uso",
+        "date": "15/10/2026"
+      },
+      {
+        "type": "note",
+        "text": "Status: \"Em uso\" → \"Estoque\"",
+        "date": "15/10/2026"
       }
     ]
   },
