@@ -4834,15 +4834,15 @@
     "_hist": []
   },
   {
-    "nome": "SPARE-ONZE",
+    "nome": "Humberto Cavalcanti",
     "fabricante": "LENOVO",
     "modelo": "E14 ULTRA5",
     "sn": "PE0EC4HZ",
     "ativo": "616",
     "carregador": "",
-    "status": "NÃO definido",
+    "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "",
     "nf": "",
@@ -4851,7 +4851,18 @@
     "old_user": "NOVO",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "user",
+        "text": "humberto cavalcanti",
+        "date": "15/10/2026"
+      },
+      {
+        "type": "note",
+        "text": "Status: \"\" → \"Em uso\"",
+        "date": "15/10/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE-ONZE",
