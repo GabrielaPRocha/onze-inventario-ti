@@ -4875,15 +4875,15 @@
     ]
   },
   {
-    "nome": "SPARE-ONZE",
+    "nome": "Lucas Melo",
     "fabricante": "LENOVO",
     "modelo": "E14 ULTRA5",
     "sn": "PE0EC4EN",
     "ativo": "617",
     "carregador": "",
-    "status": "NÃO definido",
+    "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "",
     "nf": "",
@@ -4891,8 +4891,14 @@
     "valor": "",
     "old_user": "NOVO",
     "obs": "",
-    "cargo": "",
-    "_hist": []
+    "cargo": "Analista de Operações",
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"NÃO definido\" → \"Em uso\"",
+        "date": "20/10/2026"
+      }
+    ]
   },
   {
     "nome": "Aline Garcia",
