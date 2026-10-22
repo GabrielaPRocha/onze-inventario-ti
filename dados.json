@@ -4830,7 +4830,7 @@
     "sn": "PE0EC4EG",
     "ativo": "649",
     "carregador": "",
-    "status": "",
+    "status": "Em uso",
     "formatado": "",
     "avariado": "",
     "garantia": "",
@@ -4841,7 +4841,13 @@
     "old_user": "NOVO",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"\" → \"Em uso\"",
+        "date": "22/10/2026"
+      }
+    ]
   },
   {
     "nome": "Humberto Cavalcanti",
