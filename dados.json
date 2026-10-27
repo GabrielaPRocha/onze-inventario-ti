@@ -1426,9 +1426,9 @@
     "sn": "GYFD4XGJ66",
     "ativo": "568",
     "carregador": "589",
-    "status": "Em uso",
+    "status": "Estoque",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "INGRAM",
     "nf": "24052",
@@ -1437,7 +1437,13 @@
     "old_user": "NOVO",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"Em uso\" → \"Estoque\"",
+        "date": "27/10/2026"
+      }
+    ]
   },
   {
     "nome": "SPARE - ONZE",
