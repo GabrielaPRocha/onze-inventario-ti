@@ -3219,15 +3219,15 @@
     "_hist": []
   },
   {
-    "nome": "Renan Ramos",
+    "nome": "Renato Serrato",
     "fabricante": "LENOVO",
     "modelo": "THINKPAD T490",
     "sn": "PE05AT75",
     "ativo": "393",
     "carregador": "47807",
-    "status": "NÃO definido",
+    "status": "Em uso",
     "formatado": "",
-    "avariado": "NÃO",
+    "avariado": "",
     "garantia": "",
     "vendor": "LENOVO",
     "nf": "",
@@ -3236,7 +3236,13 @@
     "old_user": "Julia Souza",
     "obs": "",
     "cargo": "",
-    "_hist": []
+    "_hist": [
+      {
+        "type": "note",
+        "text": "Status: \"NÃO definido\" → \"Em uso\"",
+        "date": "30/10/2026"
+      }
+    ]
   },
   {
     "nome": "CARLA SILVA",
